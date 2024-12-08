@@ -1,0 +1,14 @@
+name = "Death Angels"
+filename = "death_angels-1.2.4-forge-1.20.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "83953e91d341d90d0553bc388c44719cab0dffd9"
+
+[update]
+[update.curseforge]
+file-id = 5957176
+project-id = 1059834
