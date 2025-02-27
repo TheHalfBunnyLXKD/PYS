@@ -333,3 +333,30 @@
 [16:06:42] [Server thread/INFO]: [libreforge] Loaded libreforge
 [16:19:21] [Server thread/INFO]: [Not Secure] [Server] ebaaa
 [16:19:24] [Server thread/INFO]: [Not Secure] [Server] esse buxa n entra n
+[16:41:10] [Server thread/INFO]: ========================
+[16:41:10] [Server thread/INFO]: Players online 0/20
+[16:41:10] [Server thread/INFO]: ========================
+[16:44:12] [Server thread/INFO]: Updated (EN) language file. Took 21ms
+[16:44:12] [Server thread/INFO]: CMIL Configs and locale files reloaded! Took 63ms
+[16:44:12] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
+[16:44:12] [Server thread/INFO]: [CMI] Loaded (-) SqLite into memory. Took 3ms
+[16:44:12] [Server thread/INFO]: [CMI] Can't determine point command default particle, defaultin to DUST
+[16:44:12] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
+[16:44:12] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
+[16:44:12] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 0ms
+[16:44:12] [Server thread/INFO]: [CMI] Loaded (144) custom mob heads into memory. Took 14ms
+[16:44:13] [Server thread/INFO]: [CMI] Loaded (EN) language file into memory. Took 128ms
+[16:44:13] [Server thread/INFO]: [CMI] Loaded (BR) language file into memory. Took 207ms
+[16:44:13] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 5ms
+[16:44:13] [Server thread/INFO]: [CMI] Loaded (4) schedules into memory. Took 3ms
+[16:44:13] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 4ms
+[16:44:13] [Server thread/INFO]: [CMI] Loaded (1) warps into memory. Took 0ms
+[16:44:13] [Server thread/INFO]: [CMI] Loaded (0) custom alias into memory. Took 0ms
+[16:44:13] [Server thread/INFO]: [CMI] Loaded (61) regular alias into memory. Took 51ms
+[16:44:13] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 13ms
+[16:44:13] [Server thread/INFO]: [CMI] Loaded (2) holograms into memory. Took 2ms
+[16:44:13] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 0ms
+[16:44:13] [Server thread/INFO]: [CMI] Loaded (1) skin cache entries into memory. Took 0ms
+[16:44:13] [Server thread/INFO]: [CMI] Loaded (0) ArmorStand templates into memory. Took 0ms
+[16:44:13] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 4ms
+[16:44:13] [Server thread/INFO]: CMI configurações e arquivos locais recarregados! Took 777ms
