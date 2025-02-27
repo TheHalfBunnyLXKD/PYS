@@ -3,6 +3,8 @@
 legacy-data-migrated: true
 previous-handler: yaml
 player:
+  b4c51c0b-a06d-30d5-93b5-98734a4f79f2:
+    eco:player_name: Gabriel_o_louco
   00000000-0000-0000-0000-000000000000:
     eco:local_server_id: 0e0513d6-c95e-44d0-9494-fa545c312098
   1316fb8a-77be-385d-82b3-15350c8ee35c:

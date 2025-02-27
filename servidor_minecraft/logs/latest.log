@@ -1,365 +1,451 @@
-[16:06:03] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:06:06] [ServerMain/INFO]: Loaded 7 recipes
-[16:06:07] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[16:06:07] [Server thread/INFO]: Loading properties
-[16:06:07] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[16:06:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:06:07] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:06:08] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[20:46:31] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:46:31] [ServerMain/INFO]: Found new data pack file/Dungeons and Taverns 3.0.3.fix.zip, loading it automatically
+[20:46:31] [ServerMain/INFO]: Found new data pack file/From-The-Fog-1.20-v1.9.2-Data-Resource-Pack.zip.zip, loading it automatically
+[20:46:34] [ServerMain/INFO]: Loaded 7 recipes
+[20:46:34] [ServerMain/ERROR]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.fromLines(CommandFunction.java:68) ~[?:?]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:80) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[20:46:35] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:46:35] [Server thread/INFO]: Loading properties
+[20:46:35] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[20:46:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:46:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:46:37] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[16:06:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[16:06:09] [Server thread/INFO]: Default game type: SURVIVAL
-[16:06:09] [Server thread/INFO]: Generating keypair
-[16:06:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:06:09] [Server thread/INFO]: Using epoll channel type
-[16:06:09] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:06:09] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[16:06:10] [Server thread/INFO]: [eco] Initializing eco
-[16:06:10] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loading 1 libraries... please wait
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-all/4.1.118.Final/netty-all-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-buffer/4.1.118.Final/netty-buffer-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec/4.1.118.Final/netty-codec-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-dns/4.1.118.Final/netty-codec-dns-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-haproxy/4.1.118.Final/netty-codec-haproxy-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-http/4.1.118.Final/netty-codec-http-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-http2/4.1.118.Final/netty-codec-http2-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-memcache/4.1.118.Final/netty-codec-memcache-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-mqtt/4.1.118.Final/netty-codec-mqtt-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-redis/4.1.118.Final/netty-codec-redis-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-smtp/4.1.118.Final/netty-codec-smtp-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-socks/4.1.118.Final/netty-codec-socks-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-stomp/4.1.118.Final/netty-codec-stomp-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-xml/4.1.118.Final/netty-codec-xml-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-common/4.1.118.Final/netty-common-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-handler/4.1.118.Final/netty-handler-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-native-unix-common/4.1.118.Final/netty-transport-native-unix-common-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-handler-proxy/4.1.118.Final/netty-handler-proxy-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-handler-ssl-ocsp/4.1.118.Final/netty-handler-ssl-ocsp-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-resolver/4.1.118.Final/netty-resolver-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-resolver-dns/4.1.118.Final/netty-resolver-dns-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport/4.1.118.Final/netty-transport-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-rxtx/4.1.118.Final/netty-transport-rxtx-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-sctp/4.1.118.Final/netty-transport-sctp-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-udt/4.1.118.Final/netty-transport-udt-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-classes-epoll/4.1.118.Final/netty-transport-classes-epoll-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-classes-kqueue/4.1.118.Final/netty-transport-classes-kqueue-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-resolver-dns-classes-macos/4.1.118.Final/netty-resolver-dns-classes-macos-4.1.118.Final.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-x86_64.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-aarch_64.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-riscv64.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-native-kqueue/4.1.118.Final/netty-transport-native-kqueue-4.1.118.Final-osx-x86_64.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-native-kqueue/4.1.118.Final/netty-transport-native-kqueue-4.1.118.Final-osx-aarch_64.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-resolver-dns-native-macos/4.1.118.Final/netty-resolver-dns-native-macos-4.1.118.Final-osx-x86_64.jar
-[16:06:11] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-resolver-dns-native-macos/4.1.118.Final/netty-resolver-dns-native-macos-4.1.118.Final-osx-aarch_64.jar
-[16:06:11] [Server thread/INFO]: [Talismans] Initializing Talismans
-[16:06:11] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
-[16:06:12] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@65912dca]
-[16:06:12] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[16:06:12] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.031-SNAPSHOT
-[16:06:13] [Server thread/INFO]: [mcMMO] [D] Registered WG flags successfully!
-[16:06:13] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.5.3.4
-[16:06:13] [Server thread/INFO]: [eco] Loading server plugin eco v6.75.2
-[16:06:13] [Server thread/INFO]: [SCore] Loading server plugin SCore v5.25.2.25
-[16:06:13] [Server thread/INFO]: [CMI] Loading server plugin CMI v9.7.9.6
-[16:06:13] [Server thread/INFO]: [ExecutableItems] Loading server plugin ExecutableItems v7.25.2.25
-[16:06:13] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
-[16:06:13] [Server thread/INFO]: [Talismans] Loading server plugin Talismans v6.72.0
-[16:06:13] [Server thread/INFO]: [libreforge] Initializing libreforge
-[16:06:13] [Server thread/INFO]: [libreforge] Loading server plugin libreforge v4.74.0
-[16:06:13] [Server thread/INFO]: [SpecializedCrates] Loading server plugin SpecializedCrates v3.5.7
-[16:06:13] [Server thread/INFO]: [BossMania] Loading server plugin BossMania v1.9.26
-[16:06:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:06:13] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
-[16:06:13] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:06:13] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[16:06:14] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[16:06:16] [Server thread/INFO]: [eco] Enabling eco v6.75.2
-[16:06:16] [Server thread/INFO]: [eco] Loading eco
-[16:06:16] [Server thread/INFO]: [eco] Loaded integrations: ExecutableItems, mcMMO, CMI, WorldGuard
-[16:06:16] [Server thread/INFO]: [eco] Scanning for conflicts...
-[16:06:16] [Server thread/INFO]: [eco] No conflicts found!
-[16:06:16] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[16:06:17] [Server thread/INFO]:         __    
-[16:06:17] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[16:06:17] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[16:06:17] [Server thread/INFO]: 
-[16:06:17] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:06:17] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:06:18] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:06:18] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:06:18] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1827ms)
-[16:06:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:06:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:06:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:06:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:06:18] [Server thread/INFO]: Preparing level "world"
-[16:06:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:06:20] [Server thread/INFO]: Time elapsed: 365 ms
-[16:06:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:06:21] [Server thread/INFO]: Time elapsed: 151 ms
-[16:06:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:06:21] [Server thread/INFO]: Time elapsed: 113 ms
-[16:06:21] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[16:06:21] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[16:06:21] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[16:06:21] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[16:06:21] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[16:06:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[16:06:21] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[16:06:21] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[16:06:21] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[16:06:21] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[16:06:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[16:06:21] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[16:06:21] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[16:06:21] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[16:06:21] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[16:06:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[16:06:21] [Server thread/INFO]: [WorldGuard] Loading region data...
-[16:06:22] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.031-SNAPSHOT
-[16:06:22] [Server thread/INFO]: [mcMMO] [STDOUT] [Spigotunlocked.com] - poomuk
-[16:06:22] [Server thread/WARN]: Nag author(s): '[nossr50, GJ, NuclearW, bm01, Glitchfinder, TfT_02, t00thpick1, Riking, electronicboy, kashike]' of 'mcMMO v2.2.031-SNAPSHOT' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[16:06:23] [Server thread/ERROR]: [mcMMO] PotionConfig: Failed to parse effect for potion POTION_OF_INFESTATION: INFESTED 0 3600
-[16:06:23] [Server thread/ERROR]: [mcMMO] PotionConfig: Failed to parse effect for potion SPLASH_POTION_OF_INFESTATION: INFESTED 0 2500
-[16:06:23] [Server thread/ERROR]: [mcMMO] PotionConfig: Failed to parse effect for potion LINGERING_POTION_OF_INFESTATION: INFESTED 0 3000
-[16:06:23] [Server thread/ERROR]: [mcMMO] PotionConfig: Failed to parse effect for potion POTION_OF_WEAVING: WEAVING 0 3600
-[16:06:23] [Server thread/ERROR]: [mcMMO] PotionConfig: Failed to parse effect for potion SPLASH_POTION_OF_WEAVING: WEAVING 0 2500
-[16:06:23] [Server thread/ERROR]: [mcMMO] PotionConfig: Failed to parse effect for potion LINGERING_POTION_OF_WEAVING: WEAVING 0 3000
-[16:06:23] [Server thread/ERROR]: [mcMMO] PotionConfig: Failed to parse effect for potion POTION_OF_OOZING: OOZING 0 3600
-[16:06:23] [Server thread/ERROR]: [mcMMO] PotionConfig: Failed to parse effect for potion SPLASH_POTION_OF_OOZING: OOZING 0 2500
-[16:06:23] [Server thread/ERROR]: [mcMMO] PotionConfig: Failed to parse effect for potion LINGERING_POTION_OF_OOZING: OOZING 0 3000
-[16:06:23] [Server thread/INFO]: [mcMMO] Loaded 229 Alchemy potions, skipped 0.
-[16:06:26] [Server thread/INFO]: [CMILib] Enabling CMILib v1.5.3.4
-[16:06:29] [Server thread/INFO]: Server version: v1_20_R1 - 1.20.1 - paper  git-Paper-196 (MC: 1.20.1)
-[16:06:30] [Server thread/INFO]: CMI hooked.
-[16:06:30] [Server thread/INFO]: Updated (EN) language file. Took 86ms
-[16:06:30] [Server thread/INFO]: [SCore] Enabling SCore v5.25.2.25
-[16:06:30] [Server thread/INFO]: ================ SCore ================
-[16:06:30] [Server thread/INFO]: SCore is running on Folia
-[16:06:30] [Server thread/INFO]: SCore is running on Paper or fork
-[16:06:30] [Server thread/INFO]: SCore Version of the server git-Paper-196 (MC: 1.20.1) !
-[16:06:30] [Server thread/INFO]: SCore ExecutableItems hooked !  (7.25.2.25) Load After
-[16:06:30] [Server thread/INFO]: SCore WorldGuard hooked !  (7.0.9+5934e49)  Load Before
-[16:06:30] [Server thread/INFO]: SCore CMI hooked !  (9.7.9.6) Load After
-[16:06:30] [Server thread/INFO]: SCore WorldEdit hooked !  (7.2.15+6463-5ca4dff)  Load Before
-[16:06:30] [Server thread/INFO]: SCore Locale setup: EN
-[16:06:30] [Server thread/INFO]: SCore Language of the editor setup on EN
-[16:06:30] [Server thread/INFO]: SCore Language for in-game messages setup on EN
-[16:06:30] [Server thread/INFO]: SCore will connect to the database hosted: In Local
-[16:06:30] [Server thread/INFO]: SCore Connection to the db...
-[16:06:30] [Server thread/INFO]: SCore will connect to the database hosted: In Local
-[16:06:30] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
-[16:06:30] [Server thread/INFO]: SCore Creating table Commands if not exists...
-[16:06:30] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
-[16:06:30] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
-[16:06:30] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
-[16:06:30] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
-[16:06:30] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
-[16:06:31] [Server thread/INFO]: SCore SCore loaded 1 variables from local files !
-[16:06:31] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
-[16:06:31] [Server thread/INFO]: ================ SCore ================
-[16:06:31] [Server thread/INFO]: [CMI] Enabling CMI v9.7.9.6
-[16:06:31] [Server thread/INFO]: _______________________________________________________
-[16:06:31] [Server thread/INFO]:  
-[16:06:31] [Server thread/INFO]:  ██████╗███╗   ███╗██╗
-[16:06:31] [Server thread/INFO]: ██╔════╝████╗ ████║██║
-[16:06:31] [Server thread/INFO]: ██║     ██╔████╔██║██║
-[16:06:31] [Server thread/INFO]: ██║     ██║╚██╔╝██║██║
-[16:06:31] [Server thread/INFO]: ╚██████╗██║ ╚═╝ ██║██║
-[16:06:31] [Server thread/INFO]:  ╚═════╝╚═╝     ╚═╝╚═╝
-[16:06:31] [Server thread/INFO]: _______________________________________________________
-[16:06:31] [Server thread/INFO]: Integrating PaperSpigot async methods
-[16:06:32] [Server thread/INFO]: Loaded (67) 67 Enabled and 0 Disabled modules into memory. Took 162ms
-[16:06:32] [Server thread/INFO]: Initialized Cipher256 AES
-[16:06:32] [Server thread/INFO]: Loaded (61) regular alias into memory. Took 126ms
-[16:06:32] [Server thread/INFO]: Loaded (1) custom text's into memory. Took 6ms
-[16:06:33] [Server thread/INFO]: 3.42.0 data base type detected
-[16:06:33] [Server thread/INFO]: Loaded (-) SqLite into memory. Took 291ms
-[16:06:33] [Server thread/INFO]: Vault was not found, you will have limited economy support
-[16:06:33] [Server thread/INFO]: Can't determine point command default particle, defaultin to DUST
-[16:06:33] [Server thread/INFO]: Loaded (5) warning categories into memory. Took 1ms
-[16:06:33] [Server thread/INFO]: Loaded (3) warning commands into memory. Took 0ms
-[16:06:33] [Server thread/INFO]: Loaded (0) cooldowns into memory. Took 0ms
-[16:06:33] [Server thread/INFO]: Loaded (144) custom mob heads into memory. Took 32ms
-[16:06:34] [Server thread/INFO]: Loaded (5) kits into memory. Took 523ms
-[16:06:34] [Server thread/INFO]: Loaded (7) ranks into memory. Took 28ms
-[16:06:34] [Server thread/INFO]: Loaded (8) playtime rewards into memory. Took 4ms
-[16:06:34] [Server thread/INFO]: Executed Player DB querry in 0ms
-[16:06:34] [Server thread/INFO]: Loaded (1) player data into memory. Took 17ms
-[16:06:34] [Server thread/INFO]: Loaded (0) playtime records into memory. Took 1ms
-[16:06:34] [Server thread/INFO]: Loaded (0) playtime reward records into memory. Took 0ms
-[16:06:34] [Server thread/INFO]: Loaded (0) custom alias into memory. Took 4ms
-[16:06:35] [Server thread/INFO]: Loaded (-) Registered events into memory. Took 239ms
-[16:06:35] [Server thread/INFO]: Loaded (0) event action commands into memory. Took 20ms
-[16:06:35] [Server thread/INFO]: Loaded (EN) language file into memory. Took 347ms
-[16:06:35] [Server thread/INFO]: Loaded (245) worth values into memory. Took 101ms
-[16:06:35] [Server thread/INFO]: Loaded (1) warps into memory. Took 11ms
-[16:06:35] [Server thread/INFO]: mcMMO found. (Loaded: true)
-[16:06:35] [Server thread/INFO]: Loaded (4) schedules into memory. Took 13ms
-[16:06:35] [Server thread/INFO]: Loaded (2) holograms into memory. Took 57ms
-[16:06:35] [Server thread/INFO]: Loaded (1) skin cache entries into memory. Took 4ms
-[16:06:35] [Server thread/INFO]: Loaded (0) ArmorStand templates into memory. Took 2ms
-[16:06:35] [Server thread/INFO]: Version 9.7.9.6 has been enabled
-[16:06:35] [Server thread/INFO]: _______________________________________________________
-[16:06:35] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v7.25.2.25
-[16:06:35] [Server thread/INFO]: ========*======== ExecutableItems ========*========
-[16:06:39] [Server thread/INFO]: ExecutableItems Amount of Executable Items configurations loaded: 144
-[16:06:39] [Server thread/INFO]: ExecutableItems Items with display conditions :  
-[16:06:39] [Server thread/INFO]: ========*======== ExecutableItems ========*========
-[16:06:39] [Server thread/INFO]: [Talismans] Enabling Talismans v6.72.0
-[16:06:39] [Server thread/INFO]: [Talismans] Loading Talismans
-[16:06:39] [Server thread/INFO]: [SpecializedCrates] Enabling SpecializedCrates v3.5.7
-[16:06:39] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
-[16:06:39] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
-[16:06:39] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'SpecializedCrates' to create a bStats instance!
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: great_box
-[16:06:39] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: animation_9
-[16:06:39] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: animation_3
-[16:06:39] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: portal
-[16:06:39] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: semicircle
-[16:06:39] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: animation_5
-[16:06:39] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: animation_1
-[16:06:39] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: slots
-[16:06:39] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: animation_4
-[16:06:39] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: animation_7
-[16:06:39] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: animation_6
-[16:06:39] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: example_animation
-[16:06:39] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: animation_8
-[16:06:39] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: animation_2
-[16:06:39] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: roulette
-[16:06:39] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:39] [Server thread/INFO]: 
-[16:06:39] [Server thread/INFO]: nightmare_animation
-[16:06:40] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:40] [Server thread/INFO]: 
-[16:06:40] [Server thread/INFO]: lootbox_animation_1
-[16:06:40] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:40] [Server thread/INFO]: 
-[16:06:40] [Server thread/INFO]: tnt_animation
-[16:06:40] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:40] [Server thread/INFO]: [SpecializedCrates] Hologram handler: CMI
-[16:06:40] [Server thread/INFO]: 
-[16:06:40] [Server thread/INFO]: 
-[16:06:40] [Server thread/INFO]: BasicCrate
-[16:06:40] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:40] [Server thread/INFO]: 
-[16:06:40] [Server thread/INFO]: MasterCrate
-[16:06:40] [Server thread/INFO]:   Particles
-[16:06:40] [Server thread/INFO]:     - Particle string '1' is invalid
-[16:06:40] [Server thread/INFO]:         CAUSE: Particle effect 'SUSPENDED_DEPTH' is invalid
-[16:06:40] [Server thread/INFO]: 
-[16:06:40] [Server thread/INFO]: Nightmare
-[16:06:40] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:40] [Server thread/INFO]: 
-[16:06:40] [Server thread/INFO]: ExpertCrate
-[16:06:40] [Server thread/INFO]:   Settings
-[16:06:40] [Server thread/INFO]:     - Failed to set the display type to NPC / MOB
-[16:06:40] [Server thread/INFO]:         CAUSE: The 'Citizens' plugin is not installed.
-[16:06:40] [Server thread/INFO]:   Particles
-[16:06:40] [Server thread/INFO]:     - Particle string '1' is invalid
-[16:06:40] [Server thread/INFO]:         CAUSE: Particle effect 'SUSPENDED_DEPTH' is invalid
-[16:06:40] [Server thread/INFO]: 
-[16:06:40] [Server thread/INFO]: BeginnerCrate
-[16:06:40] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:40] [Server thread/INFO]: 
-[16:06:40] [Server thread/INFO]: MineChestExample (Disabled)
-[16:06:40] [Server thread/INFO]:   Animation
-[16:06:40] [Server thread/INFO]:     - Failed to load the CrateType.Inventory.CSGO.final-panel-tick-length value.
-[16:06:40] [Server thread/INFO]:         CAUSE: The value does not exist
-[16:06:40] [Server thread/INFO]: 
-[16:06:40] [Server thread/INFO]: MiddleCrate
-[16:06:40] [Server thread/INFO]:   Animation
-[16:06:40] [Server thread/INFO]:     - Failed to load the CrateType.Inventory.CSGO.final-panel-tick-length value.
-[16:06:40] [Server thread/INFO]:         CAUSE: The value does not exist
-[16:06:40] [Server thread/INFO]: 
-[16:06:40] [Server thread/INFO]: AllCrates
-[16:06:40] [Server thread/INFO]:   + Success: there were no issues.
-[16:06:40] [Server thread/INFO]: 
-[16:06:40] [Server thread/INFO]: 
-[16:06:40] [Server thread/INFO]: Crate AllCrates rewards not found.
-[16:06:40] [Server thread/INFO]: [BossMania] Enabling BossMania v1.9.26
-[16:06:40] [Server thread/WARN]: [BossMania] Could not save Config.yml to plugins/BossMania/Config.yml because Config.yml already exists.
-[16:06:40] [Server thread/INFO]: [BossMania] Hooked with the plugin WorldGuard
-[16:06:40] [Server thread/INFO]: [BossMania] Enabled!
-[16:06:40] [Server thread/INFO]: [BossMania] Selected language: English
-[16:06:40] [Server thread/INFO]: [libreforge] Enabling libreforge v4.74.0
-[16:06:40] [Server thread/INFO]: [libreforge] Loading libreforge
-[16:06:40] [Server thread/INFO]: [libreforge] Loaded integrations: mcMMO, WorldGuard
-[16:06:40] [Server thread/INFO]: [libreforge] 
-[16:06:40] [Server thread/INFO]: [libreforge] Hey, what's this plugin doing here? I didn't install it!
-[16:06:40] [Server thread/INFO]: [libreforge] libreforge is the effects system for plugins like EcoEnchants,
-[16:06:40] [Server thread/INFO]: [libreforge] EcoJobs, EcoItems, etc. If you're looking for config options for
-[16:06:40] [Server thread/INFO]: [libreforge] things like cooldown messages, lrcdb, and stuff like that, you'll
-[16:06:40] [Server thread/INFO]: [libreforge] find it under /plugins/libreforge
-[16:06:40] [Server thread/INFO]: [libreforge] 
-[16:06:40] [Server thread/INFO]: [libreforge] Don't worry about updating libreforge, it's handled automatically!
-[16:06:40] [Server thread/INFO]: [libreforge] 
-[16:06:41] [Server thread/INFO]: Running delayed init tasks
-[16:06:41] [Server thread/INFO]: [CMI] Permission plugin: LuckPerms5.4.156
-[16:06:41] [Server thread/INFO]: Done (34.896s)! For help, type "help"
-[16:06:41] [Server thread/INFO]: Timings Reset
-[16:06:42] [Server thread/INFO]: [eco] Loaded eco
-[16:06:42] [Server thread/INFO]: [Talismans] Loaded Talismans
-[16:06:42] [Server thread/INFO]: [libreforge] Loaded libreforge
-[16:19:21] [Server thread/INFO]: [Not Secure] [Server] ebaaa
-[16:19:24] [Server thread/INFO]: [Not Secure] [Server] esse buxa n entra n
-[16:41:10] [Server thread/INFO]: ========================
-[16:41:10] [Server thread/INFO]: Players online 0/20
-[16:41:10] [Server thread/INFO]: ========================
-[16:44:12] [Server thread/INFO]: Updated (EN) language file. Took 21ms
-[16:44:12] [Server thread/INFO]: CMIL Configs and locale files reloaded! Took 63ms
-[16:44:12] [Server thread/INFO]: [CMI] Loaded (1) custom text's into memory. Took 0ms
-[16:44:12] [Server thread/INFO]: [CMI] Loaded (-) SqLite into memory. Took 3ms
-[16:44:12] [Server thread/INFO]: [CMI] Can't determine point command default particle, defaultin to DUST
-[16:44:12] [Server thread/INFO]: [CMI] Loaded (5) warning categories into memory. Took 0ms
-[16:44:12] [Server thread/INFO]: [CMI] Loaded (3) warning commands into memory. Took 0ms
-[16:44:12] [Server thread/INFO]: [CMI] Loaded (0) cooldowns into memory. Took 0ms
-[16:44:12] [Server thread/INFO]: [CMI] Loaded (144) custom mob heads into memory. Took 14ms
-[16:44:13] [Server thread/INFO]: [CMI] Loaded (EN) language file into memory. Took 128ms
-[16:44:13] [Server thread/INFO]: [CMI] Loaded (BR) language file into memory. Took 207ms
-[16:44:13] [Server thread/INFO]: [CMI] Loaded (5) kits into memory. Took 5ms
-[16:44:13] [Server thread/INFO]: [CMI] Loaded (4) schedules into memory. Took 3ms
-[16:44:13] [Server thread/INFO]: [CMI] Loaded (7) ranks into memory. Took 4ms
-[16:44:13] [Server thread/INFO]: [CMI] Loaded (1) warps into memory. Took 0ms
-[16:44:13] [Server thread/INFO]: [CMI] Loaded (0) custom alias into memory. Took 0ms
-[16:44:13] [Server thread/INFO]: [CMI] Loaded (61) regular alias into memory. Took 51ms
-[16:44:13] [Server thread/INFO]: [CMI] Loaded (245) worth values into memory. Took 13ms
-[16:44:13] [Server thread/INFO]: [CMI] Loaded (2) holograms into memory. Took 2ms
-[16:44:13] [Server thread/INFO]: [CMI] Loaded (8) playtime rewards into memory. Took 0ms
-[16:44:13] [Server thread/INFO]: [CMI] Loaded (1) skin cache entries into memory. Took 0ms
-[16:44:13] [Server thread/INFO]: [CMI] Loaded (0) ArmorStand templates into memory. Took 0ms
-[16:44:13] [Server thread/INFO]: [CMI] Loaded (0) event action commands into memory. Took 4ms
-[16:44:13] [Server thread/INFO]: CMI configurações e arquivos locais recarregados! Took 777ms
-[17:01:39] [Server thread/INFO]: ========================
-[17:01:39] [Server thread/INFO]: Jogadores online 0/20
-[17:01:39] [Server thread/INFO]: ========================
+[20:46:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[20:46:37] [Server thread/INFO]: Default game type: SURVIVAL
+[20:46:37] [Server thread/INFO]: Generating keypair
+[20:46:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:46:38] [Server thread/INFO]: Using epoll channel type
+[20:46:38] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:46:38] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[20:46:38] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loading 1 libraries... please wait
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-all/4.1.118.Final/netty-all-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-buffer/4.1.118.Final/netty-buffer-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec/4.1.118.Final/netty-codec-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-dns/4.1.118.Final/netty-codec-dns-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-haproxy/4.1.118.Final/netty-codec-haproxy-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-http/4.1.118.Final/netty-codec-http-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-http2/4.1.118.Final/netty-codec-http2-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-memcache/4.1.118.Final/netty-codec-memcache-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-mqtt/4.1.118.Final/netty-codec-mqtt-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-redis/4.1.118.Final/netty-codec-redis-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-smtp/4.1.118.Final/netty-codec-smtp-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-socks/4.1.118.Final/netty-codec-socks-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-stomp/4.1.118.Final/netty-codec-stomp-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-codec-xml/4.1.118.Final/netty-codec-xml-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-common/4.1.118.Final/netty-common-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-handler/4.1.118.Final/netty-handler-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-native-unix-common/4.1.118.Final/netty-transport-native-unix-common-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-handler-proxy/4.1.118.Final/netty-handler-proxy-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-handler-ssl-ocsp/4.1.118.Final/netty-handler-ssl-ocsp-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-resolver/4.1.118.Final/netty-resolver-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-resolver-dns/4.1.118.Final/netty-resolver-dns-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport/4.1.118.Final/netty-transport-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-rxtx/4.1.118.Final/netty-transport-rxtx-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-sctp/4.1.118.Final/netty-transport-sctp-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-udt/4.1.118.Final/netty-transport-udt-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-classes-epoll/4.1.118.Final/netty-transport-classes-epoll-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-classes-kqueue/4.1.118.Final/netty-transport-classes-kqueue-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-resolver-dns-classes-macos/4.1.118.Final/netty-resolver-dns-classes-macos-4.1.118.Final.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-x86_64.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-aarch_64.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-riscv64.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-native-kqueue/4.1.118.Final/netty-transport-native-kqueue-4.1.118.Final-osx-x86_64.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-transport-native-kqueue/4.1.118.Final/netty-transport-native-kqueue-4.1.118.Final-osx-aarch_64.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-resolver-dns-native-macos/4.1.118.Final/netty-resolver-dns-native-macos-4.1.118.Final-osx-x86_64.jar
+[20:46:39] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/PYS/servidor_minecraft/libraries/io/netty/netty-resolver-dns-native-macos/4.1.118.Final/netty-resolver-dns-native-macos-4.1.118.Final-osx-aarch_64.jar
+[20:46:40] [Server thread/INFO]: [eco] Initializing eco
+[20:46:40] [Server thread/INFO]: [Talismans] Initializing Talismans
+[20:46:40] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[20:46:42] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4e9429b]
+[20:46:42] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[20:46:42] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.031-SNAPSHOT
+[20:46:42] [Server thread/INFO]: [mcMMO] [D] Registered WG flags successfully!
+[20:46:42] [Server thread/INFO]: [SCore] Loading server plugin SCore v5.25.2.25
+[20:46:42] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.5.3.4
+[20:46:42] [Server thread/INFO]: [eco] Loading server plugin eco v6.75.2
+[20:46:42] [Server thread/INFO]: [ExecutableItems] Loading server plugin ExecutableItems v7.25.2.25
+[20:46:42] [Server thread/INFO]: [CMI] Loading server plugin CMI v9.7.9.6
+[20:46:42] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.3
+[20:46:42] [Server thread/INFO]: [UltimateShop] Loading server plugin UltimateShop v3.4.0
+[20:46:42] [Server thread/INFO]: [ExecutableBlocks] Loading server plugin ExecutableBlocks v5.25.2.25
+[20:46:42] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
+[20:46:42] [Server thread/INFO]: [Talismans] Loading server plugin Talismans v6.72.0
+[20:46:42] [Server thread/INFO]: [libreforge] Initializing libreforge
+[20:46:43] [Server thread/INFO]: [libreforge] Loading server plugin libreforge v4.74.0
+[20:46:43] [Server thread/INFO]: [SpecializedCrates] Loading server plugin SpecializedCrates v3.5.7
+[20:46:43] [Server thread/INFO]: [BossMania] Loading server plugin BossMania v1.9.26
+[20:46:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:46:43] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[20:46:43] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:46:43] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:46:43] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[20:46:45] [Server thread/INFO]: [eco] Enabling eco v6.75.2
+[20:46:45] [Server thread/INFO]: [eco] Loading eco
+[20:46:46] [Server thread/INFO]: [eco] Loaded integrations: ExecutableItems, mcMMO, CMI, WorldGuard
+[20:46:46] [Server thread/INFO]: [eco] Scanning for conflicts...
+[20:46:46] [Server thread/INFO]: [eco] No conflicts found!
+[20:46:46] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.3
+[20:46:46] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[20:46:47] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[20:46:48] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[20:46:48] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
+[20:46:48] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[20:46:48] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[20:46:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:46:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:46:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[20:46:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[20:46:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[20:46:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:46:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:46:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.3
+[20:46:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 86e796c
+[20:46:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[20:46:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:46:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[20:46:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[20:46:48] [Server thread/INFO]:         __    
+[20:46:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[20:46:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:46:48] [Server thread/INFO]: 
+[20:46:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:46:49] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:46:50] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:46:50] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:46:50] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2250ms)
+[20:46:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:46:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:46:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:46:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:46:50] [Server thread/INFO]: Preparing level "world"
+[20:46:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:46:53] [Server thread/INFO]: Time elapsed: 541 ms
+[20:46:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:46:53] [Server thread/INFO]: Time elapsed: 179 ms
+[20:46:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:46:53] [Server thread/INFO]: Time elapsed: 141 ms
+[20:46:53] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[20:46:53] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:46:53] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:46:53] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:46:53] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:46:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:46:53] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:46:53] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:46:53] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:46:53] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:46:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:46:53] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:46:53] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:46:53] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:46:53] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:46:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:46:54] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:46:54] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.031-SNAPSHOT
+[20:46:54] [Server thread/INFO]: [mcMMO] [STDOUT] [Spigotunlocked.com] - poomuk
+[20:46:54] [Server thread/WARN]: Nag author(s): '[nossr50, GJ, NuclearW, bm01, Glitchfinder, TfT_02, t00thpick1, Riking, electronicboy, kashike]' of 'mcMMO v2.2.031-SNAPSHOT' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[20:46:55] [Server thread/INFO]: [mcMMO] Loaded 220 Alchemy potions, skipped 0.
+[20:46:57] [Server thread/INFO]: [SCore] Enabling SCore v5.25.2.25
+[20:46:57] [Server thread/INFO]: ================ SCore ================
+[20:46:57] [Server thread/INFO]: SCore is running on Folia
+[20:46:57] [Server thread/INFO]: SCore is running on Paper or fork
+[20:46:57] [Server thread/INFO]: SCore Version of the server git-Paper-196 (MC: 1.20.1) !
+[20:46:57] [Server thread/INFO]: SCore ExecutableItems hooked !  (7.25.2.25) Load After
+[20:46:57] [Server thread/INFO]: SCore ExecutableBlocks hooked !  (5.25.2.25) Load After
+[20:46:57] [Server thread/INFO]: SCore WorldGuard hooked !  (7.0.9+5934e49)  Load Before
+[20:46:57] [Server thread/INFO]: SCore CMI hooked !  (9.7.9.6) Load After
+[20:46:57] [Server thread/INFO]: SCore WorldEdit hooked !  (7.2.15+6463-5ca4dff)  Load Before
+[20:46:57] [Server thread/INFO]: SCore Locale setup: EN
+[20:46:57] [Server thread/INFO]: SCore Language of the editor setup on EN
+[20:46:57] [Server thread/INFO]: SCore Language for in-game messages setup on EN
+[20:46:58] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[20:46:58] [Server thread/INFO]: SCore Connection to the db...
+[20:46:58] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[20:46:58] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
+[20:46:58] [Server thread/INFO]: SCore Creating table Commands if not exists...
+[20:46:58] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
+[20:46:58] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
+[20:46:58] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
+[20:46:58] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
+[20:46:58] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
+[20:46:59] [Server thread/INFO]: SCore SCore loaded 1 variables from local files !
+[20:46:59] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
+[20:46:59] [Server thread/INFO]: ================ SCore ================
+[20:46:59] [Server thread/INFO]: [CMILib] Enabling CMILib v1.5.3.4
+[20:47:01] [Server thread/INFO]: Server version: v1_20_R1 - 1.20.1 - paper  git-Paper-196 (MC: 1.20.1)
+[20:47:03] [Server thread/INFO]: CMI hooked.
+[20:47:03] [Server thread/INFO]: Updated (EN) language file. Took 150ms
+[20:47:03] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v7.25.2.25
+[20:47:03] [Server thread/INFO]: ========*======== ExecutableItems ========*========
+[20:47:07] [Server thread/INFO]: ExecutableItems Amount of Executable Items configurations loaded: 144
+[20:47:07] [Server thread/INFO]: ExecutableItems Items with display conditions :  
+[20:47:07] [Server thread/INFO]: ========*======== ExecutableItems ========*========
+[20:47:07] [Server thread/INFO]: [CMI] Enabling CMI v9.7.9.6
+[20:47:07] [Server thread/INFO]: _______________________________________________________
+[20:47:07] [Server thread/INFO]:  
+[20:47:07] [Server thread/INFO]:  ██████╗███╗   ███╗██╗
+[20:47:07] [Server thread/INFO]: ██╔════╝████╗ ████║██║
+[20:47:07] [Server thread/INFO]: ██║     ██╔████╔██║██║
+[20:47:07] [Server thread/INFO]: ██║     ██║╚██╔╝██║██║
+[20:47:07] [Server thread/INFO]: ╚██████╗██║ ╚═╝ ██║██║
+[20:47:07] [Server thread/INFO]:  ╚═════╝╚═╝     ╚═╝╚═╝
+[20:47:07] [Server thread/INFO]: _______________________________________________________
+[20:47:07] [Server thread/INFO]: Integrating PaperSpigot async methods
+[20:47:07] [Server thread/INFO]: Loaded (67) 67 Enabled and 0 Disabled modules into memory. Took 129ms
+[20:47:07] [Server thread/INFO]: Initialized Cipher256 AES
+[20:47:08] [Server thread/INFO]: Loaded (61) regular alias into memory. Took 128ms
+[20:47:08] [Server thread/INFO]: Loaded (1) custom text's into memory. Took 8ms
+[20:47:08] [Server thread/INFO]: 3.42.0 data base type detected
+[20:47:08] [Server thread/INFO]: Loaded (-) SqLite into memory. Took 206ms
+[20:47:08] [Server thread/INFO]: Vault was not found, you will have limited economy support
+[20:47:09] [Server thread/INFO]: Can't determine point command default particle, defaultin to DUST
+[20:47:09] [Server thread/INFO]: Loaded (5) warning categories into memory. Took 0ms
+[20:47:09] [Server thread/INFO]: Loaded (3) warning commands into memory. Took 0ms
+[20:47:09] [Server thread/INFO]: Loaded (0) cooldowns into memory. Took 0ms
+[20:47:09] [Server thread/INFO]: Loaded (144) custom mob heads into memory. Took 30ms
+[20:47:10] [Server thread/INFO]: Loaded (5) kits into memory. Took 565ms
+[20:47:10] [Server thread/INFO]: Loaded (7) ranks into memory. Took 11ms
+[20:47:10] [Server thread/INFO]: Loaded (8) playtime rewards into memory. Took 2ms
+[20:47:10] [Server thread/INFO]: Executed Player DB querry in 0ms
+[20:47:10] [Server thread/INFO]: Loaded (2) player data into memory. Took 6ms
+[20:47:10] [Server thread/INFO]: Loaded (0) playtime records into memory. Took 0ms
+[20:47:10] [Server thread/INFO]: Loaded (0) playtime reward records into memory. Took 0ms
+[20:47:10] [Server thread/INFO]: Loaded (0) custom alias into memory. Took 1ms
+[20:47:10] [Server thread/INFO]: Loaded (-) Registered events into memory. Took 197ms
+[20:47:10] [Server thread/INFO]: Loaded (0) event action commands into memory. Took 6ms
+[20:47:10] [Server thread/INFO]: Loaded (EN) language file into memory. Took 236ms
+[20:47:10] [Server thread/INFO]: Loaded (BR) language file into memory. Took 160ms
+[20:47:10] [Server thread/INFO]: Loaded (245) worth values into memory. Took 57ms
+[20:47:10] [Server thread/INFO]: Loaded (1) warps into memory. Took 2ms
+[20:47:10] [Server thread/INFO]: mcMMO found. (Loaded: true)
+[20:47:10] [Server thread/INFO]: Loaded (4) schedules into memory. Took 6ms
+[20:47:10] [Server thread/INFO]: Loaded (2) holograms into memory. Took 39ms
+[20:47:10] [Server thread/INFO]: Loaded (1) skin cache entries into memory. Took 0ms
+[20:47:10] [Server thread/INFO]: Loaded (0) ArmorStand templates into memory. Took 0ms
+[20:47:10] [Server thread/INFO]: Version 9.7.9.6 has been enabled
+[20:47:10] [Server thread/INFO]: _______________________________________________________
+[20:47:10] [Server thread/INFO]: [UltimateShop] Enabling UltimateShop v3.4.0
+[20:47:10] [Server thread/INFO]: [UltimateShop] Paper is found, enabled Paper only feature!
+[20:47:10] [Server thread/INFO]: [UltimateShop] Loading PREMIUM version only features...
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: blocks.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: daily.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: concretes.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: wools.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: redstone.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: special.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: drops.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: example.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: blocks2.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: glass.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: logs.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: flowers.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: farming.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: fish.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: transport.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: minerals.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded shop: terracottas.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Loaded menu: main.yml!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Downloading Minecraft locate file, this will cost some time...
+[20:47:11] [Server thread/INFO]: [UltimateShop] Your Minecraft version is: 1.20.1!
+[20:47:11] [Server thread/INFO]: [UltimateShop] Plugin is loaded. Author: PQguanfang.
+[20:47:11] [Server thread/INFO]: [ExecutableBlocks] Enabling ExecutableBlocks v5.25.2.25
+[20:47:11] [Server thread/INFO]: ========*======== ExecutableBlocks ========*========
+[20:47:11] [Server thread/INFO]: SCore Update of receiveBlock in your for the plugin > ExecutableBlocks in language: EN
+[20:47:11] [Server thread/INFO]: SCore Update of giveMessage in your for the plugin > ExecutableBlocks in language: EN
+[20:47:11] [Server thread/INFO]: SCore Update of fullInventory in your for the plugin > ExecutableBlocks in language: EN
+[20:47:11] [Server thread/INFO]: SCore Update of requiredLevel in your for the plugin > ExecutableBlocks in language: EN
+[20:47:11] [Server thread/INFO]: SCore Update of notWhitelistedWorld in your for the plugin > ExecutableBlocks in language: EN
+[20:47:11] [Server thread/INFO]: SCore Update of requiredItemsFirstPart in your for the plugin > ExecutableBlocks in language: EN
+[20:47:11] [Server thread/INFO]: SCore Update of requiredItemsQuantity in your for the plugin > ExecutableBlocks in language: EN
+[20:47:11] [Server thread/INFO]: SCore Update of requiredItemsSeparator in your for the plugin > ExecutableBlocks in language: EN
+[20:47:11] [Server thread/INFO]: SCore Update of permissionMessage in your for the plugin > ExecutableBlocks in language: EN
+[20:47:11] [Server thread/INFO]: SCore Update of playerLimit in your for the plugin > ExecutableBlocks in language: EN
+[20:47:11] [Server thread/INFO]: ExecutableBlocks CANT LOAD YOUR BLOCKS, FOLDER 'blocks' not found !
+[20:47:11] [Server thread/INFO]: ExecutableBlocks It will generate 22 default blocks from jar : /com/ssomar/executableblocks/configs/blocks/
+[20:47:11] [Server thread/INFO]: ExecutableBlocks /Builds/Free_Hut.yml was created !
+[20:47:11] [Server thread/INFO]: ExecutableBlocks /Conveyors/Prem_Conveyor_1.yml was created !
+[20:47:11] [Server thread/INFO]: ExecutableBlocks /Conveyors/Prem_Conveyor_2.yml was created !
+[20:47:11] [Server thread/INFO]: ExecutableBlocks /Custom/Free_Test.yml was created !
+[20:47:11] [Server thread/INFO]: ExecutableBlocks /Custom/Free_Test2.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Custom/Prem_Block_Timer.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Custom/Prem_Damager.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Custom/Prem_Diamond_Tree.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Custom/Prem_Driller.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Custom/Prem_Fake_Turret.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Custom/Prem_Glowing_EB.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Custom/Prem_Hopper_Vacuum.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Custom/Prem_Impractical_EB.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Custom/Prem_Mob_Vacuum.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Custom/Prem_PotOfGold.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Custom/Prem_Quartz.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Custom/Prem_SpawnLimit.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Custom/Prem_Target.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Generators/Prem_Generator.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Generators/Prem_Generator2.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Structures/Prem_Totem.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks /Traps/Free_Mine.yml was created !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks DEFAULT BLOCKS CREATED !
+[20:47:12] [Server thread/INFO]: ExecutableBlocks ERROR, Couldn't load the Option value of option from config, value: NULL (Block: Free_Hut) >> Options available: https://docs.ssomar.com/
+[20:47:12] [Server thread/INFO]: ExecutableBlocks ERROR, Couldn't load the Option value of option from config, value: NULL (Block: Free_Test) >> Options available: https://docs.ssomar.com/
+[20:47:12] [Server thread/INFO]: ExecutableBlocks ERROR, Couldn't load the Option value of option from config, value: NULL (Block: Free_Test2) >> Options available: https://docs.ssomar.com/
+[20:47:12] [Server thread/INFO]: ExecutableBlocks ERROR, Couldn't load the Option value of option from config, value: NULL (Block: Prem_Target) >> Options available: https://docs.ssomar.com/
+[20:47:12] [Server thread/INFO]: ExecutableBlocks Amount of Executable Blocks configurations loaded: 22
+[20:47:12] [Server thread/INFO]: ExecutableBlocks There are: 0 ExecutableBlock placed configs to load.
+[20:47:12] [Server thread/INFO]: ExecutableBlocks 0 ExecutableBlock(s)Placed loaded !
+[20:47:12] [Server thread/INFO]: ========*======== ExecutableBlocks ========*========
+[20:47:12] [Server thread/INFO]: [Talismans] Enabling Talismans v6.72.0
+[20:47:12] [Server thread/INFO]: [Talismans] Loading Talismans
+[20:47:12] [Server thread/INFO]: [SpecializedCrates] Enabling SpecializedCrates v3.5.7
+[20:47:12] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[20:47:12] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[20:47:12] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'SpecializedCrates' to create a bStats instance!
+[20:47:12] [Server thread/INFO]: 
+[20:47:12] [Server thread/INFO]: great_box
+[20:47:12] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:12] [Server thread/INFO]: 
+[20:47:12] [Server thread/INFO]: animation_9
+[20:47:12] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:12] [Server thread/INFO]: 
+[20:47:12] [Server thread/INFO]: animation_3
+[20:47:12] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:12] [Server thread/INFO]: 
+[20:47:12] [Server thread/INFO]: portal
+[20:47:12] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:12] [Server thread/INFO]: 
+[20:47:12] [Server thread/INFO]: semicircle
+[20:47:12] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: animation_5
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: animation_1
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: slots
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: animation_4
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: animation_7
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: animation_6
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: example_animation
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: animation_8
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: animation_2
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: roulette
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: nightmare_animation
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: lootbox_animation_1
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: tnt_animation
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: [SpecializedCrates] Hologram handler: CMI
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: BasicCrate
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: MasterCrate
+[20:47:13] [Server thread/INFO]:   Particles
+[20:47:13] [Server thread/INFO]:     - Particle string '1' is invalid
+[20:47:13] [Server thread/INFO]:         CAUSE: Particle effect 'SUSPENDED_DEPTH' is invalid
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: Nightmare
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: ExpertCrate
+[20:47:13] [Server thread/INFO]:   Settings
+[20:47:13] [Server thread/INFO]:     - Failed to set the display type to NPC / MOB
+[20:47:13] [Server thread/INFO]:         CAUSE: The 'Citizens' plugin is not installed.
+[20:47:13] [Server thread/INFO]:   Particles
+[20:47:13] [Server thread/INFO]:     - Particle string '1' is invalid
+[20:47:13] [Server thread/INFO]:         CAUSE: Particle effect 'SUSPENDED_DEPTH' is invalid
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: BeginnerCrate
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: MineChestExample (Disabled)
+[20:47:13] [Server thread/INFO]:   Animation
+[20:47:13] [Server thread/INFO]:     - Failed to load the CrateType.Inventory.CSGO.final-panel-tick-length value.
+[20:47:13] [Server thread/INFO]:         CAUSE: The value does not exist
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: MiddleCrate
+[20:47:13] [Server thread/INFO]:   Animation
+[20:47:13] [Server thread/INFO]:     - Failed to load the CrateType.Inventory.CSGO.final-panel-tick-length value.
+[20:47:13] [Server thread/INFO]:         CAUSE: The value does not exist
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: AllCrates
+[20:47:13] [Server thread/INFO]:   + Success: there were no issues.
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: 
+[20:47:13] [Server thread/INFO]: Crate AllCrates rewards not found.
+[20:47:13] [Server thread/INFO]: [BossMania] Enabling BossMania v1.9.26
+[20:47:13] [Server thread/WARN]: [BossMania] Could not save Config.yml to plugins/BossMania/Config.yml because Config.yml already exists.
+[20:47:13] [Server thread/INFO]: [BossMania] Hooked with the plugin WorldGuard
+[20:47:13] [Server thread/INFO]: [BossMania] Enabled!
+[20:47:13] [Server thread/INFO]: [BossMania] Selected language: English
+[20:47:13] [Server thread/INFO]: [libreforge] Enabling libreforge v4.74.0
+[20:47:13] [Server thread/INFO]: [libreforge] Loading libreforge
+[20:47:14] [Server thread/INFO]: [libreforge] Loaded integrations: mcMMO, WorldGuard
+[20:47:14] [Server thread/INFO]: [libreforge] 
+[20:47:14] [Server thread/INFO]: [libreforge] Hey, what's this plugin doing here? I didn't install it!
+[20:47:14] [Server thread/INFO]: [libreforge] libreforge is the effects system for plugins like EcoEnchants,
+[20:47:14] [Server thread/INFO]: [libreforge] EcoJobs, EcoItems, etc. If you're looking for config options for
+[20:47:14] [Server thread/INFO]: [libreforge] things like cooldown messages, lrcdb, and stuff like that, you'll
+[20:47:14] [Server thread/INFO]: [libreforge] find it under /plugins/libreforge
+[20:47:14] [Server thread/INFO]: [libreforge] 
+[20:47:14] [Server thread/INFO]: [libreforge] Don't worry about updating libreforge, it's handled automatically!
+[20:47:14] [Server thread/INFO]: [libreforge] 
+[20:47:14] [Server thread/INFO]: Running delayed init tasks
+[20:47:14] [Server thread/INFO]: [CMI] Permission plugin: LuckPerms5.4.156
+[20:47:15] [Server thread/INFO]: Done (39.529s)! For help, type "help"
+[20:47:15] [Server thread/INFO]: Timings Reset
+[20:47:15] [Server thread/INFO]: [eco] Loaded eco
+[20:47:15] [Server thread/INFO]: [Talismans] Loaded Talismans
+[20:47:15] [Server thread/INFO]: [libreforge] Loaded libreforge
+[20:47:23] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[20:47:23] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[20:47:34] [Craft Scheduler Thread - 5 - CMI/INFO]: TPS: 20.0 20.0 20.0 20.0 20.0
+[20:47:34] [Craft Scheduler Thread - 5 - CMI/INFO]: One block 60 seconds. Max 600 seconds
+[20:47:34] [Craft Scheduler Thread - 5 - CMI/INFO]: ||||||||||||||
+[20:52:23] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[20:52:23] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[20:54:51] [Craft Scheduler Thread - 5 - CMI/INFO]: TPS: 20.0 20.0 20.0 20.0 19.97
+[20:54:51] [Craft Scheduler Thread - 5 - CMI/INFO]: One block 60 seconds. Max 600 seconds
+[20:54:51] [Craft Scheduler Thread - 5 - CMI/INFO]: ||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||
+[20:54:51] [Craft Scheduler Thread - 5 - CMI/INFO]: ||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||
+[20:54:51] [Craft Scheduler Thread - 5 - CMI/INFO]: ||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||
+[20:54:51] [Craft Scheduler Thread - 5 - CMI/INFO]: ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||
+[20:55:00] [Craft Scheduler Thread - 14 - CMI/INFO]: TPS: 20.0 20.0 20.0 20.0 19.97
+[20:55:00] [Craft Scheduler Thread - 14 - CMI/INFO]: One block 60 seconds. Max 600 seconds
+[20:55:00] [Craft Scheduler Thread - 14 - CMI/INFO]: |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+[20:55:00] [Craft Scheduler Thread - 14 - CMI/INFO]: |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+[20:55:00] [Craft Scheduler Thread - 14 - CMI/INFO]: |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+[20:55:00] [Craft Scheduler Thread - 14 - CMI/INFO]: |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||
