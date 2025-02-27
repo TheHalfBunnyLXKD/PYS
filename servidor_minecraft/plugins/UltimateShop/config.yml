@@ -163,8 +163,8 @@ display-item:
   # Otherwise, the line without this will always display it.
   add-lore:
     - '@n '
-    - '@a&ePurchase: {buy-price}'
-    - '@b&eSell: {sell-price}'
+    - '@a&eComprar: {buy-price}'
+    - '@b&eVender: {sell-price}'
     - '@c&#FF7777Player Buy Stock: {buy-times-player}/{buy-limit-player}'
     - '@d&#FF7777Server Buy Stock: {buy-times-server}/{buy-limit-server}'
     - '@e&#FF7777Player Sell Limit: {sell-times-player}/{sell-limit-player}'

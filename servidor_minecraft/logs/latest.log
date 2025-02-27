@@ -479,3 +479,13 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21:37:23] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
 [21:42:23] [Server thread/INFO]: [UltimateShop] Auto saving data...
 [21:42:23] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[21:47:23] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[21:47:23] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[21:48:26] [Server thread/INFO]: ========================
+[21:48:26] [Server thread/INFO]: Jogadores online 0/20
+[21:48:26] [Server thread/INFO]: ========================
+[21:52:23] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[21:52:23] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[21:56:27] [User Authenticator #0/INFO]: UUID of player TheHalfBunnyYT is 1316fb8a-77be-385d-82b3-15350c8ee35c
+[21:56:27] [Server thread/INFO]: TheHalfBunnyYT joined the game
+[21:56:27] [Server thread/INFO]: TheHalfBunnyYT[/127.122.141.60:34033] logged in with entity id 95 at ([world]-94.1764102792441, 222.0, 47.69287089490861)
