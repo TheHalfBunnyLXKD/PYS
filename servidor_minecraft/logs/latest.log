@@ -489,3 +489,55 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21:56:27] [User Authenticator #0/INFO]: UUID of player TheHalfBunnyYT is 1316fb8a-77be-385d-82b3-15350c8ee35c
 [21:56:27] [Server thread/INFO]: TheHalfBunnyYT joined the game
 [21:56:27] [Server thread/INFO]: TheHalfBunnyYT[/127.122.141.60:34033] logged in with entity id 95 at ([world]-94.1764102792441, 222.0, 47.69287089490861)
+[21:57:15] [Server thread/INFO]: TheHalfBunnyYT issued server command: /eb
+[21:57:23] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[21:57:23] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[21:57:27] [Server thread/INFO]: TheHalfBunnyYT issued server command: /plugins
+[21:57:41] [Server thread/INFO]: TheHalfBunnyYT issued server command: /shop menu
+[21:57:53] [Server thread/INFO]: TheHalfBunnyYT issued server command: /hologram
+[21:57:54] [Server thread/INFO]: TheHalfBunnyYT issued server command: /cmil rmc 2790911251261774856
+[21:57:56] [Server thread/INFO]: TheHalfBunnyYT issued server command: /cmil rmc -4333595771153617358
+[21:58:55] [Server thread/INFO]: TheHalfBunnyYT issued server command: /cmi hologram gui Spawn
+[21:59:13] [Server thread/INFO]: TheHalfBunnyYT issued server command: /cmi hologram gui Spawn
+[21:59:25] [Server thread/INFO]: TheHalfBunnyYT issued server command: /cmil rmc 4537629688581430405
+[21:59:30] [Server thread/INFO]: TheHalfBunnyYT issued server command: /cmil rmc 2774480364947210771
+[21:59:31] [Server thread/INFO]: TheHalfBunnyYT issued server command: /cmil rmc 7044745268452639907
+[21:59:34] [Server thread/INFO]: TheHalfBunnyYT issued server command: /cmil rmc 3970770583657969519
+[21:59:54] [Server thread/INFO]: TheHalfBunnyYT issued server command: /cmil rmc -2085651158259639799
+[22:01:09] [User Authenticator #1/INFO]: UUID of player Gabriel_o_louco is b4c51c0b-a06d-30d5-93b5-98734a4f79f2
+[22:01:09] [Server thread/INFO]: Gabriel_o_louco joined the game
+[22:01:09] [Server thread/INFO]: Gabriel_o_louco[/127.180.113.153:33177] logged in with entity id 215 at ([world]7.585564809320619, 93.0, 846.2941202214755)
+[22:01:10] [Server thread/INFO]: TheHalfBunnyYT issued server command: /skin set TheHalfBunnyYT
+[22:01:13] [Async Chat Thread - #0/INFO]: [Not Secure] <TheHalfBunnyYT> olá
+[22:01:57] [Server thread/INFO]: TheHalfBunnyYT issued server command: /tps
+[22:02:02] [Async Chat Thread - #1/INFO]: [Not Secure] <TheHalfBunnyYT> eu vou ter que ativar um bagui
+[22:02:04] [Async Chat Thread - #0/INFO]: [Not Secure] <TheHalfBunnyYT> pera ae
+[22:02:05] [Server thread/INFO]: TheHalfBunnyYT lost connection: Disconnected
+[22:02:05] [Server thread/INFO]: TheHalfBunnyYT left the game
+[22:02:14] [Async Chat Thread - #1/INFO]: [Not Secure] <Gabriel_o_louco> ah
+[22:02:23] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[22:02:23] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[22:02:46] [Server thread/INFO]: Gabriel_o_louco issued server command: /tps
+[22:04:31] [Server thread/INFO]: Gabriel_o_louco issued server command: /enchant Fireaspect 2
+[22:04:49] [User Authenticator #2/INFO]: UUID of player TheHalfBunnyYT is 1316fb8a-77be-385d-82b3-15350c8ee35c
+[22:04:49] [Server thread/INFO]: TheHalfBunnyYT joined the game
+[22:04:49] [Server thread/INFO]: TheHalfBunnyYT[/127.122.141.60:54679] logged in with entity id 1293 at ([world]-99.12625416030794, 222.0, 53.17207683631284)
+[22:04:56] [Server thread/INFO]: Gabriel_o_louco issued server command: /tp TheHalfBunnyYT
+[22:04:58] [Server thread/INFO]: TheHalfBunnyYT issued server command: /cmi skin disable
+[22:05:03] [Async Chat Thread - #2/INFO]: [Not Secure] <TheHalfBunnyYT> pera ai kk
+[22:05:06] [Server thread/INFO]: TheHalfBunnyYT issued server command: /cmi skin
+[22:05:08] [Server thread/INFO]: TheHalfBunnyYT issued server command: /cmi skin off
+[22:05:09] [Async Chat Thread - #2/INFO]: [Not Secure] <Gabriel_o_louco> foda kkkkkkkkkkk
+[22:05:14] [Server thread/INFO]: TheHalfBunnyYT issued server command: /skin TheHalfBunnyYT
+[22:05:18] [Async Chat Thread - #3/INFO]: [Not Secure] <TheHalfBunnyYT> pronto
+[22:05:54] [Server thread/INFO]: Gabriel_o_louco issued server command: /enchant Knockback 10
+[22:06:11] [Async Chat Thread - #2/INFO]: [Not Secure] <TheHalfBunnyYT> cabeça
+[22:06:15] [Async Chat Thread - #2/INFO]: [Not Secure] <TheHalfBunnyYT> troca pra todo mundo
+[22:06:18] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabriel_o_louco> eita
+[22:06:19] [Async Chat Thread - #2/INFO]: [Not Secure] <TheHalfBunnyYT> pra mim é a da minha skin
+[22:06:24] [Async Chat Thread - #3/INFO]: [Not Secure] <TheHalfBunnyYT> pra vc deve ser a sua
+[22:06:25] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabriel_o_louco> pra minha ta a minha
+[22:06:38] [Async Chat Thread - #2/INFO]: [Not Secure] <TheHalfBunnyYT> nice
+[22:06:41] [Async Chat Thread - #3/INFO]: [Not Secure] <TheHalfBunnyYT> lais
+[22:06:42] [Async Chat Thread - #2/INFO]: [Not Secure] <TheHalfBunnyYT> alias
+[22:06:44] [Async Chat Thread - #3/INFO]: [Not Secure] <Gabriel_o_louco> hmmmmm

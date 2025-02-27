@@ -8,12 +8,13 @@ Spawn:
     Double: true
     BColor: '{#Dark_Blue}'
     BAlpha: 0
-    IScale: 2.1
+    IScale: 1.3
   Lines:
   - Olá!
   - Bem vindo ao Overgames SMP!
   - '&4(Isto não é o resultado completo!)'
-  - ICON:diamond_sword%enchanted%
+  - <T> </T>
+  - ICON:head:%cmi_user_name%
 ICON:diamond_sword:
   Loc: world;-90.06;223.44;46.56
   NewDisplay: true
