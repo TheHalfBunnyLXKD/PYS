@@ -1,0 +1,20 @@
+prefix: '&b&l[&eBossMania&b&l] &f'
+language: English
+updaterEnabled: true
+bossBarRange: 64
+hologramRange: 32
+messagesOnBossDeath:
+  - '&7The boss: &e%boss% &7has been killed by &e%killer% &7and has dropped: &e%drops%&7.'
+  - ''
+  - '&aTopDamagers: '
+  - ''
+  - '&c%1thDamager%: &a%1thDamage%'
+  - '&c%2thDamager%: &a%2thDamage%'
+  - '&c%3thDamager%: &a%3thDamage%'
+droppedMoneyMessage: '&7You received &e%money%$ &7from killing the boss &e%boss%&7.'
+isDroppedMoneyMessageEnabled: true
+bossEggName: Spawn &c%boss%
+#Bosses after a server restart don't act like bosses anymore, so they don't do any skill and doesn't get killed when you do /bm killall. This option allows you to kill them everytime you restart the server.
+killBossesBeforeRestart: false
+#Bosses spawned by eggs, consider the player that spawned them, their "owner". If this option is set on false, bosses spawned by players won't attack who spawned them.
+bossesAttackTheirOwner: false

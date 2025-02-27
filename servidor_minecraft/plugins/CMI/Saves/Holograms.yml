@@ -1,0 +1,28 @@
+Spawn:
+  Loc: world;-89.82;224.62;55.45
+  NewDisplay: true
+  ND:
+    Bill: FIXED
+    TAlpha: 255
+    Yaw: 90
+    Double: true
+    BColor: '{#Dark_Blue}'
+    BAlpha: 0
+    IScale: 2.1
+  Lines:
+  - Olá!
+  - Bem vindo ao Overgames SMP!
+  - '&4(Isto não é o resultado completo!)'
+  - ICON:diamond_sword%enchanted%
+ICON:diamond_sword:
+  Loc: world;-90.06;223.44;46.56
+  NewDisplay: true
+  ND:
+    Bill: FIXED
+    TAlpha: 250
+    Shadow: false
+    Pitch: -10
+    BAlpha: 0
+    IScale: 1.5
+  Lines:
+  - ICON:diamond_pickaxe

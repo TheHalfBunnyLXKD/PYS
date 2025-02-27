@@ -1,0 +1,246 @@
+GUI_PREVIOUS: Назад
+GUI_PREVIOUS_LORE: Предыдущая страница.
+GUI_NEXT: Далее
+GUI_NEXT_LORE: Следующая страница.
+GUI_SEARCH: Поиск
+GUI_SEARCH_LORE: Нажмите для поиска
+GUI_REMOVE: Удалить
+GUI_REMOVE_LORE: Удалить босса.
+GUI_COPY: Копировать
+GUI_COPY_LORE: Создать копию босса.
+GUI_CONFIRM: Подтвердить
+GUI_CONFIRM_LORE: §7Нажмите для подтверждения
+GUI_ABORT: Прервать
+GUI_ABORT_LORE: §7Нажмите, чтобы прервать
+GUI_BOSSES_LORE: Управление всеми боссами
+GUI_AUTOSPAWNS_LORE: Управление авто-спавном
+GUI_AUTOSPAWN_TELEPORT: ПКМ для телепорта.
+GUI_AUTOSPAWN_SPAWNPOINTS: Управляйте точками возрождения автоспауна
+GUI_Press_Q_TO_REMOVESPAWN: §cНажмите Q, чтобы удалить точку возрождения..
+GUI_RANGE: Диапазон
+GUI_RANGE_LORE: §eЕсли диапазон выше 0, босс будет появляться в диапазоне вокруг автоспавна, который вы установили.
+GUI_MAX_SPAWNABLE_BOSSES: Максимальное количество появляющихся боссов
+GUI_MAX_SPAWNABLE_BOSSES_LORE: §eУстановив это ограничение, боссы смогут появляться только из автоспавна.
+GUI_MAX_SPAWNABLE_BOSSES_LORE2: §eтолько в том случае, если количество порожденных боссов будет меньше этого предела.
+GUI_MAX_SPAWNABLE_BOSSES_LORE3: §eЕсли вы не хотите устанавливать это ограничение, установите его в 0.
+GUI_ENABLED: Включен
+GUI_DISABLED: Отключен
+GUI_CLICKTO_ENABLE: §aНажмите, чтобы включить
+GUI_CLICKTO_DISABLE: §aНажмите, чтобы выключить
+GUI_SET_DISPLAYNAME: §aНажмите, чтобы дать имя.
+GUI_HOLOGRAMPLUGIN_REQUIRED: §cДля отображения имени, Вам нужен плагин HolographicDisplays!
+GUI_VAULT_REQUIRED: §cЧтобы установить деньги, необходимо иметь Vault и экономический плагин.!
+GUI_UNSET_DISPLAYNAME: §aНажмите Q, чтобы удалить отображаемое имя.
+GUI_NAME: §eИмя
+GUI_NAME_LORE: §eВыберите название элемента.
+GUI_INVALID_NAME: §cНеверное имя! Вы не можете использовать специальные символы в имени босса!
+GUI_INVALID_AUTOSPAWN_NAME: §cНеверное имя! Вы не можете использовать специальные символы в имени автоспавна!
+GUI_CREATE: Создать
+GUI_CREATE_BOSS_LORE: Создать нового босса.
+GUI_CREATE_AUTOSPAWN_LORE: Создать авто-спавн.
+GUI_CLICK_TO_MANAGE: §aЩелкните левой кнопкой мыши, чтобы управлять боссом
+GUI_RIGHT_CLICK_TOTYPE_SPAWNRATE: §aЩелкните правой кнопкой мыши, чтобы ввести в чате секунды на спавн
+GUI_EQUIPMENT: Экипировка
+GUI_EQUIPMENT_LORE: Управление экипировкой босса.
+GUI_DROPS: Дроп
+GUI_DROPS_LORE: Управление дропом с босса.
+GUI_MAX_DROPS: §eМаксимально выпадаемого дропа
+GUI_MAX_DROPS_LORE: Установите максимальное количество выпадений, которое босс может сбросить после смерти.
+GUI_DROPPEDMONEY: Выпавшие деньги
+GUI_AVAIBLE: §cДоступно только в пользовательских навыках.
+GUI_UNAVAIBLE: §cНедоступно
+GUI_COMMAND_DROPS: Управляйте командами дропа. Эти команды выполняются при смерте босса.
+GUI_COMMAND_REPLACE: §bПлейсхолдер §e%killer% §b будет заменено именем босса-убийцы.
+GUI_ALL: §bПлейсхолдер §e%all% §b заставит команду быть выполненной для всех игроков, которые поразили босса.
+GUI_COMMAND_TOP_REPLACE: §bПлейсхолдер §e%1thDamager% §b будет заменено именем главного дамагера.
+GUI_COMMAND_SECOND_REPLACE: §bПлейсхолдер §e%2thDamager% §bбудет заменено именем второго топового дамагера.
+GUI_COMMAND_THIRD_REPLACE: §bПлейсхолдер §e%3thDamager% §bбудет заменено именем третьего топового дамагера.
+GUI_COMMAND_TOP_DAMAGE_REPLACE: §bПлейсхолдер §e%1thDamage% §bбудет заменен уроном, нанесенным топовым дамагером.
+GUI_COMMAND_SECOND_DAMAGE_REPLACE: §bПлейсхолдер §e%2thDamage% §bбудет заменен на урон, нанесенный вторым лучшим уроном..
+GUI_COMMAND_THIRD_DAMAGE_REPLACE: §bПлейсхолдер §e%3thDamage% §bбудет заменен на урон, нанесенный третьим лучшим уроном.
+GUI_SPAWN_CONDITIONS: Условия для спавна
+GUI_SPAWN_CONDITIONS_LORE: Управление условиями для спавна босса.
+GUI_SPAWN_CONDITIONS_LORE2: Если вы добавите условие спавна, босс заспавнится, только если если условие соблюдено.
+GUI_SPAWN_CONDITIONS_LORE3: Команда /bm spawn пропускает условия.
+GUI_SKILL: Умения
+GUI_SKILL_LORE: Управление умениями босса.
+GUI_BOSSBAR_ENABLE: ЛКМ, чтобы включить босс-бар. (Версия сервера 1.13.2 или выше)
+GUI_EXECUTEFORPLAYERS: Навык, применяемый к игрокам
+GUI_EXECUTEFORBOSS: Навык выполнен на боссе
+GUI_BOSSBAR: Управление панелью босса.
+GUI_BOSSBAR_DISABLE: ЛКМ, чтобы включить босс-бар.
+GUI_LEVEL: Уровень
+GUI_CHANGE_BOSSBAR_COLOR: ПКМ, чтобы сменить цвет.
+GUI_CHANGE_BOSSBAR_STYLE: Нажмите Q для смены стиля.
+GUI_DESPAWNAFTER: Исчезнуть после
+GUI_DESPAWNAFTER_VALUE: §eИсчезнуть после %value% секунды.
+GUI_DESPAWNAFTER_LORE: Эта опция позволяет вам установить обратный отсчет.
+GUI_DESPAWNAFTER_LORE2: Когда этот отсчет закончится, босс исчезнет..
+GUI_DESPAWNAFTER_LORE3: Если босс получает урон, обратный отсчет сбрасывается..
+GUI_DESPAWNAFTER_LORE4: Если вы не хотите включать этот обратный отсчет, установите для него значение 0.
+GUI_CHANCES: Шансы
+GUI_CHANCES_LORE: §aШансы босса применить один из своих навыков
+GUI_MAX_BOSSES_FOR_CHUNK: Максимальное количество Боссов в Чанке
+GUI_MAX_BOSSES_FOR_CHUNKLORE: Установите, сколько боссов может появиться с помощью randomSpawns в чанке
+GUI_MAX_BOSSES_FOR_CHUNKLORE2: Если вы не хотите устанавливать ограничение, введите 0.
+GUI_MAX_BOSSES_FOR_WORLD: Максимальное количество боссов в Мире
+GUI_MAX_BOSSES_FOR_WORLDLORE: Установите, сколько боссов может появиться с помощью randomSpawns в мире.
+GUI_NO_ARMOR: БЕЗ БРОНИ
+GUI_NO_MAIN_ITEM: НЕТ ПРЕДМЕТА В ГЛАВНОЙ РУКЕ
+GUI_NO_OFF_ITEM: НЕТ ПРЕДМЕТА В СВОБОДНОЙ РУКЕ
+GUI_BACK: Назад
+GUI_CLICK_TO_CHANGE: ЛКМ для изменения.
+GUI_LEFT_CLICK_TO_CHANGE: Щелкните левой кнопкой мыши, чтобы изменить.
+GUI_CLICK_TO_CHOOSE: ЛКМ, чтобы выбрать тип.
+GUI_SET_NOTHING: НИЧЕГО НЕ УСТАНАВЛИВАТЬ
+GUI_ADD: Добавить
+GUI_BOSS_ADD_LORE: Добавить босса.
+GUI_DROP_ADD_LORE: Добавить дроп.
+GUI_SKILL_ADD_LORE: Добавить умение.
+GUI_CONDITION_ADD_LORE: Добавить условие.
+GUI_CLICK_TO_ADD: §aЛКМ - добавить.
+GUI_CLICK_TO_REMOVE: §cПКМ - удалить.
+GUI_LEFT_CLICK_TOTYPE_RADIUS: §aЩелкните левой кнопкой мыши, чтобы ввести радиус чата.
+GUI_RIGHT_CLICK_TOTYPE_TARGET: §aЩелкните правой кнопкой мыши, чтобы ввести цель чата.
+GUI_LEFT_CLICK_TOTYPE_EXECUTEDWHEN: §aЩелкните левой кнопкой мыши, чтобы изменить, когда навык должен быть выполнен.
+GUI_RIGHT_CLICK_TOTYPE_TIMER: §aЩелкните правой кнопкой мыши, чтобы ввести таймер для навыка..
+GUI_ALWAYS_EXPLAINATION: §cэтот триггер заставит босса выполнять навык, когда он появляется, и получает удар, когда умирает. Он не будет делать навыки каждую секунду.
+GUI_TIMER: §aНавык будет выполняться каждые §e%seconds% §aсекунд
+GUI_LEFT_CLICK_TOTYPE_VOLUME: §aЩелкните левой кнопкой мыши, чтобы ввести громкость чата.
+GUI_RIGHT_CLICK_TOTYPE_PITCH: §aЩелкните правой кнопкой мыши, чтобы ввести поле чата.
+GUI_Press_Q_TO_REMOVE: §cНажмите Q, чтобы удалить дроп.
+GUI_Press_Q_TO_REMOVESKILL: §cНажмите Q, чтобы удалить умение.
+GUI_Press_Q_TO_MANAGE: §aНажмите Q, чтобы управлять навыком.
+GUI_Press_Q_TO_REMOVESOUND: §cНажмите Q, чтобы удалить звук.
+GUI_PRESS_SHIFT_TO_MOVE: §cНажмите Shift + щелчок левой кнопкой мыши / Shift + щелчок правой кнопкой мыши, чтобы переместить это влево или вправо.
+GUI_Press_Q_TO_REMOVEBOSS: §cНажмите Q, чтобы убрать босса.
+GUI_Press_Q_TO_REMOVEACTION: §cНажмите Q, чтобы удалить действие.
+GUI_PRESSQ_TO_TYPE: §eНажмите Q, чтобы набрать текст в чате.
+GUI_LEFT_TO_TYPE: §eЩелкните левой кнопкой мыши, чтобы ввести в чат шанс.
+GUI_RIGHT_TO_TYPE: Щелкните правой кнопкой мыши, чтобы ввести в чат шанс.
+GUI_GO_UPTOMAX: §eЕсли вы хотите установить значение выше, чем %max%, изменить %value%
+GUI_GO_UPTOMAX2: §eв файле spigot.yml и перезапустите сервер (не перезагружать).
+GUI_LEFT_TO_TYPE_LEVEL: §eЩелкните левой кнопкой мыши, чтобы ввести в чат уровень.
+GUI_LEFT_TO_TYPE_ATTRIBUTE: §eЩелкните левой кнопкой мыши, чтобы ввести атрибут в чат.
+GUI_RIGHT_CLICK_TO_DEFAULT: §eПКМ, чтобы установить стандартное значение.
+GUI_LEFT_TO_TYPE_QUANTITY: §eЩелкните левой кнопкой мыши, чтобы ввести в чат количество.
+GUI_CLICK_ENCHANTMENTS: §cНажмите, чтобы управлять чарами.
+GUI_RIGHT_CLICK_ENCHANTMENTS: §cЩелкните правой кнопкой мыши, чтобы управлять чарами.
+GUI_SETININVENTORY: '§cЕсли эта опция включена, дроп будет добавлен непосредственно в инвентарь: §e'
+GUI_SETININVENTORY_LORE: §aЩелкните правой кнопкой мыши, чтобы изменить, кто получит дроп
+GUI_ATTRIBUTES: Аттрибуты
+GUI_GENERIC_ATTRIBUTES: §eОбщие атрибуты
+GUI_GENERIC_ATTRIBUTES_LORE: §eНажмите, чтобы изменить общие атрибуты
+GUI_MOB_ATTRIBUTES: §eАтрибуты мобов
+GUI_MOB_ATTRIBUTES_LORE: §eНажмите, чтобы изменить атрибуты, связанные с типом моба
+GUI_HEALTH: §eЗдоровье
+GUI_DAMAGE: §eУрон
+GUI_MOVEMENT_SPEED: '§eСкорость передвижения '
+GUI_FOLLOW_RANGE: §eОбласть преследования
+GUI_KNOCKBACK_RESISTANCE: §eСопротивление отбрасыванию
+GUI_IMMUNE_TO_FIRE: §eИммунитет к огну
+GUI_IMMUNE_TO_EXPLOSIONS: §eИммунитет к взрывам
+GUI_IMMUNE_TO_PROJECTILES: §eИммунитет к выстрелам
+GUI_IMMUNE_TO_SWEEP: §eИммунитет к сильным ударам
+GUI_IMMUNE_TO_MAGIC: §eИммунитет к магическим атакам
+GUI_IMMUNE_TO_MAGIC_LORE: '§e(Магическая атака может быть: дыханием дракона, зельями или некоторыми атаками от способностей из плагинов rpg)'
+GUI_MODELENGINE: §cModelEngine не установлен
+GUI_DAY_CONDITION: Если включено, босс может сделать это только днём.
+GUI_NIGHT_CONDITION: Если включено, босс может сделать это только в ночью.
+GUI_NOT_IN_REGION: Если включено, босс может делать это, только если он не в выбранном регионе.. (Требуется WorldGuard)
+GUI_IN_REGION: Если включено, босс может сделать это, только если он находится в выбранном регионе. (Требуется WorldGuard)
+GUI_RAIN_CONDITION: Если включено, босс может сделать это только во время дождя.
+GUI_THUNDER_CONDITION: Если включено, босс может сделать это только в грозу.
+GUI_DAMAGE_FROM_PROJECTILE_CONDITION: Если включено, босс может сделать это только в том случае, если его последний полученный урон был от стрелы.
+GUI_MELEE_DAMAGE_CONDITION: Если включено, босс может сделать это только в том случае, если его последний полученный урон был в ближнем бою.
+GUI_AI_TYPE: §eтип Ai
+GUI_ATTACKED_BY_MOBS: §eПодвергаетсяНападениюМобов
+GUI_ATTACKED_BY_MOBS_LORE: Если включено, босс будет атакован мобами, ЕСЛИ он причинит им вред, как это делают ванильные мобы..
+GUI_AGGESSIVE: Агрессивный
+GUI_AGGRESSIVE_LORE: §eБосс будет атаковать других игроков.
+GUI_NEUTRAL: Нейтральный
+GUI_NEUTRAL_LORE: §eБосс будет атаковать других игроков, только если они атакуют его.
+GUI_PACIFIC: Пацифист
+GUI_PACIFIC_LORE: §eБосс не будет нападать на игроков.
+GUI_DEFAULT: По умолчанию
+GUI_DEFAULT_LORE: §eИИ босса будет по умолчанию типом его моба..
+GUI_DEATHMESSAGE: Сообщение о смерти
+GUI_DEATHMESSAGE_LORE: Сообщение, отправляемое игрокам при смерти босса, включено §e
+GUI_PASSENGER: §bПассажире
+GUI_PASSENGER_LORE: §aЩелкните левой кнопкой мыши, чтобы установить, какой моб должен ездить на боссе, когда он появляется..
+GUI_PASSENGER_LORE2: §cЩелкните правой кнопкой мыши, чтобы удалить пассажира.
+GUI_MOBTYPE: '§aТип моба: §e%mobType%'
+GUI_MOBTYPE_LORE: §aНажмите, чтобы изменить тип моба босса.
+GUI_RANDOMSPAWN: Случайное появление
+GUI_RANDOMSPAWN_LORE: Управляйте автоматическим спавном босса по всему миру.
+GUI_CHANCE: Установите шанс, с которым босс может появиться в мире.
+GUI_ALLOWED_WORLD: Разрешенные миры
+GUI_ALLOWED_WORLD_LORE: Установите миры, с которыми боссу разрешено появляться.
+GUI_ALLOWED_BIOMES: Разрешенные биомы
+GUI_ALLOWED_BIOMES_LORE: Установите биомы, с которыми боссу разрешено появляться в мирах..
+GUI_ALL_BIOMES_ALLOWED: РазрешеныВсеБиомы
+GUI_ALL_BIOMES_ALLOWED_LORE: Если эта опция включена, боссу будет разрешено появляться во всех биомах.
+GUI_UNAVAILABLE: §cНедоступно для этого моба.
+GUI_ISBABY: §eРебенок
+GUI_PREVENTSPLIT: §eПредотвратитьРазделение
+GUI_PREVENTSUNBURN: §eПредотвратитьСолнечныеОжоги
+GUI_PREVENTTELEPORT: §eПредотвратитьТелепорт
+GUI_PREVENTEXPLOSION: §eПредотвратитьВзрыв
+GUI_PREVENTEXPLOSION_LORE: §eПредотвратить взрыв криперов
+GUI_GLOWING: §eСветящийся
+GUI_SUPER_CHARGED: §eСуперЗаряженный
+GUI_SIZE: Размер
+GUI_CLICK_TO_TYPE_SIZE: §eНажмите, чтобы изменить размер моба.
+GUI_SUPER_CHARGED_LORE: §eСуперзаряд Крипера
+GUI_DISABLE_SOUNDS: §eОтключить звуки по умолчанию
+GUI_DISABLE_SOUNDS_LORE: Эта опция позволяет отключить стандартные звуки моба.
+GUI_SOUNDS: Звуки
+GUI_ONSPAWNSOUNDS: ЗвукиПоявления
+GUI_ONDAMAGESOUNDS: ЗвукиПовреждений
+GUI_ONEXECUTESKILLSOUNDS: ЗвукиВыполненияНавыков
+GUI_ONDEATHSOUNDS: ЗвукСмерти
+GUI_SOUNDS_LORE: Управление звуками, издаваемыми боссом.
+GUI_SOUNDSONSPAWN: Управление звуками, издаваемыми боссом при его появлении.
+GUI_SOUNDSONDEATH: Управление звуками, издаваемыми боссом при смерти.
+GUI_SOUNDSONDAMAGE: Управление звуками, издаваемыми боссом при получении урона.
+GUI_SOUNDSONEXECUTE: Управление звуками, издаваемыми боссом при выполнении навыка.
+GUI_CUSTOMATTACK: §eПользовательская Атака (Требуется плагин Citizens)
+GUI_CUSTOMATTACKLORE: §7Если включено, атаки босса будут обрабатываться плагином, включайте только при изменении скорости / дальности атаки
+GUI_MODELENGINE_LORE: §aЩелкните правой кнопкой мыши, чтобы изменить анимацию модели.
+GUI_ATTACKRANGE: §eДиапазон атаки
+GUI_ATTACKRANGE_LORE: §7Диапазон атаки = §e%range% §7блоки
+GUI_ATTACKSPEED: §eСкорость атаки
+GUI_ATTACKSPEED_LORE: §7Скорость атаки = §e%speed% §7ticks(20 ticks = 1 second)
+GUI_REQUIRESCUSTOMATTACK: §7Этот вариант будет учитываться только в том случае, если включена Пользовательская атака.
+GUI_MIGRATION: Импорт данных
+GUI_MIGRATION_LORE: §aИз плагина %plugin%
+GUI_MIGRATION_LORE2: Боссы будут удалены, а сервер выключен!
+CONSOLE_CANNOT_USE: §cКонсоль не может использовать эту команду!
+NO_PERMISSION: §cУ вас нет разрешения на выполнение этого действия!
+COMMAND_INVALID_ARGS: §cНеверные аргументы!
+COMMAND_NOTFOUND: §cКоманда не найдена!
+COMMAND_HINT_HELP: §7Введите в чат
+BOSS_ALREADY_EXISTS: §cБосс с таким именем уже существует!
+SKILL_ALREADY_EXISTS: §cНавык с таким названием уже существует!
+BOSS_DOESNT_EXISTS: §cБосса с таким именем нету!
+TRACKER_COMMAND_ERROR: §cБосса %bosses% не существует
+AUTOSPAWN_ALREADY_EXISTS: §cТочка авто-спавна с таким именем уже существует!
+TYPE_DOESNT_EXISTS: §cНеизвестный тип моба!
+SIZE_REQUIRED: §cЧтобы создать босса с типом
+SIZE_TOO_BIG: §cРазмер не может быть больше 22!
+CREATED_BOSS: §aУспешно создан босс §e%boss%
+GIVEN_EGG: §aУдалось получить яйцо босса §e%boss%
+CANT_FIND_PLAYER: §cИгрок %player% не может быть найден.
+BOSS_SPAWNED: §aБосс
+KILLED_ALL_BOSSES: §aВсе боссы убиты.
+KILLED_ALL_BOSSES_OF: §aУспешно убиты все боссы типа §e%type%.
+INVALID_NUMBER: §cНедопустимое число!
+INVALID_COORDS: §cНеверные координаты!
+CONSOLE_SPEC: §cКонсоль должна указать координаты!
+INVALID_AUTOSPAWN: §cНедопустимое местоположение или Сущность! Пожалуйста, проверьте автоспаун и повторите попытку.
+SETTED_HEALTH: §aУспешно добавлено здоровье %health% боссу %boss%
+SETTED_DAMAGE: §aУспешно нанесен урон %damage% боссу %boss%
+PLUGIN_RELOADED: §aПлагин перезапущен!
+REMOVED_BOSS: §aБосс
+TRACKER_CREATED: §aУспешно создан трекер для босса §e%boss%, этот компас всегда будет указывать на этот тип босса (когда они живы в том же мире, что и игрок).
+NO_BOSSES: §c%bosses% живых боссов не найдено!
