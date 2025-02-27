@@ -449,3 +449,17 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [20:55:00] [Craft Scheduler Thread - 14 - CMI/INFO]: |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
 [20:55:00] [Craft Scheduler Thread - 14 - CMI/INFO]: |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
 [20:55:00] [Craft Scheduler Thread - 14 - CMI/INFO]: |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||
+[20:56:50] [Server thread/INFO]: ========================
+[20:56:50] [Server thread/INFO]: Jogadores online 0/20
+[20:56:50] [Server thread/INFO]: ========================
+[20:57:23] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[20:57:23] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
+[21:00:47] [Craft Scheduler Thread - 7 - CMI/INFO]: TPS: 20.0 20.0 20.0 20.0 19.98
+[21:00:47] [Craft Scheduler Thread - 7 - CMI/INFO]: One block 60 seconds. Max 600 seconds
+[21:00:47] [Craft Scheduler Thread - 7 - CMI/INFO]: |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+[21:00:47] [Craft Scheduler Thread - 7 - CMI/INFO]: |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+[21:00:47] [Craft Scheduler Thread - 7 - CMI/INFO]: |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+[21:00:47] [Craft Scheduler Thread - 7 - CMI/INFO]: |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+[21:00:47] [Craft Scheduler Thread - 7 - CMI/INFO]: |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||
+[21:02:23] [Server thread/INFO]: [UltimateShop] Auto saving data...
+[21:02:23] [Server thread/INFO]: [UltimateShop] If this lead to server TPS drop, you should consider disable auto save feature at config.yml!
