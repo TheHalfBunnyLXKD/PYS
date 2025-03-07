@@ -128,7 +128,7 @@ commands:
         # Override the automatically generated translated help message with a custom one.
         # This is useful if you want to have a custom help message for your server.
         # This only affects the base help message when running /skin with no parameters, not the error/subcommand help messages.
-        enabled: false
+        enabled: true
         # The custom help message to send to the player when running /skin with no parameters.
         message: 
         - <yellow>Skin plugin Help

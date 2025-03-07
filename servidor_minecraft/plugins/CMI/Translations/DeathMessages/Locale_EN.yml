@@ -377,19 +377,16 @@ Mob:
     Item:
     - '&2[playerDisplayName] &7fell to &2[mobName] &7and their fierce howl, armed
       with &2[item]'
-  Mushroom_cow:
+  Mooshroom:
     General:
-    - '&2[playerDisplayName] &7became a casualty in the mushroom kingdom, courtesy
-      of a &2[mobName]'
+    - '&2[playerDisplayName] &7killed by &2[mobName]'
     Item:
-    - '&2[playerDisplayName] &7succumbed to &2[mobName] &7and their mushroom kingdom,
-      armed with &2[item]'
-  Snowman:
+    - '&2[playerDisplayName] &7killed by &2[mobName] &7with &2[item]'
+  Snow_golem:
     General:
-    - '&2[playerDisplayName] &7melted away in the heat of battle with the frosty &2[mobName]'
+    - '&2[playerDisplayName] &7killed by &2[mobName]'
     Item:
-    - '&2[playerDisplayName] &7succumbed to &2[mobName] &7and their frosty touch,
-      armed with &2[item]'
+    - '&2[playerDisplayName] &7killed by &2[mobName] &7with &2[item]'
   Ocelot:
     General:
     - '&2[playerDisplayName] &7could not tame the wild spirit of a &2[mobName]'
@@ -632,3 +629,18 @@ Mob:
     Item:
     - '&2[playerDisplayName] &7succumbed to &2[mobName] &7and their dangerous sniff,
       armed with &2[item]'
+  Breeze:
+    General:
+    - '&2[playerDisplayName] &7killed by &2[mobName]'
+    Item:
+    - '&2[playerDisplayName] &7killed by &2[mobName] &7with &2[item]'
+  Armadillo:
+    General:
+    - '&2[playerDisplayName] &7killed by &2[mobName]'
+    Item:
+    - '&2[playerDisplayName] &7killed by &2[mobName] &7with &2[item]'
+  Bogged:
+    General:
+    - '&2[playerDisplayName] &7killed by &2[mobName]'
+    Item:
+    - '&2[playerDisplayName] &7killed by &2[mobName] &7with &2[item]'

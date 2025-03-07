@@ -1081,8 +1081,8 @@ Alias:
     Tab: true
   # /cmi skin $1-
   skin:
-    Enabled: false
-    Tab: false
+    Enabled: true
+    Tab: true
   # /cmi smite $1-
   smite:
     Enabled: true

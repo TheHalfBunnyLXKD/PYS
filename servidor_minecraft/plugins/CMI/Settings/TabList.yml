@@ -33,13 +33,14 @@ TabList:
     Header:
       '1':
       - '&f------------------------------------'
-      - '&4&lOVERGAMES SMP (EXPERIMENTAL)'
+      - '&5&lROGUECRAFT'
+      - '&5(dos idiotas)'
       - '&7Online &f%server_online%&7/&f%server_max_players%'
       - '&f------------------------------------'
     Footer:
       '1':
       - '&f------------------------------------'
-      - '&7%player_world% &f%player_x%:&7%player_y%:&f%player_z%'
+      - '&7&f%player_x%:&7%player_y%:&f%player_z%'
       - '&7Money: &f%vault_eco_balance_formatted% &7Time: &f%server_time_HH:mm:ss%'
       - '&f------------------------------------'
   useGeneralName: false

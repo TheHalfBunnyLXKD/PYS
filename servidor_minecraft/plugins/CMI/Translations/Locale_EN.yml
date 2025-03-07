@@ -2460,20 +2460,20 @@ command:
       feedback: '&eYou have opened &6[type] &etrade for &3[playerDisplayName]&e (&3[offon]&e).'
       targetfeedback: '&3[senderDisplayName]&e opened &6[type] &etrade for you.'
       professions:
+        leatherworker: Leatherworker
+        mason: Mason
+        fletcher: Fletcher
+        weaponsmith: Weaponsmith
+        toolsmith: Toolsmith
+        librarian: Librarian
+        shepherd: Shepherd
+        farmer: Farmer
+        cleric: Cleric
+        nitwit: Nitwit
+        cartographer: Cartographer
         armorer: Armorer
         butcher: Butcher
-        cartographer: Cartographer
-        cleric: Cleric
-        farmer: Farmer
         fisherman: Fisherman
-        fletcher: Fletcher
-        leatherworker: Leatherworker
-        librarian: Librarian
-        mason: Mason
-        nitwit: Nitwit
-        shepherd: Shepherd
-        toolsmith: Toolsmith
-        weaponsmith: Weaponsmith
   migratedatabase:
     help:
       info: '&eChanges database system and migrates all data'

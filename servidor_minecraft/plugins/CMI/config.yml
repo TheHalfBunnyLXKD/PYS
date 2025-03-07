@@ -3,7 +3,7 @@
 # ********************************************
 
 # Language file you want to use
-Language: BR
+Language: EN
 # Defines if you want to auto download default locale files from github repository
 # You can disable this if you are using EN or you already have your locale set up and you don't need other languages to be downloaded.
 LanguageDownload: true
@@ -873,6 +873,10 @@ Spawners:
       # When set to true, players trying to change spawner with monster egg will require appropriate permission node
       # In example: player should have cmi.egginteract.pig to change spawner into pig, or cmi.egginteract.zombie to change into zombie spawner
       RequiresPermission: false
+    TrialSpawner:
+      # When set to true, players trying to change trial spawner with monster egg will require appropriate permission node
+      # In example: player should have cmi.trialegginteract.pig to change spawner into pig, or cmi.trialegginteract.zombie to change into zombie spawner
+      RequiresPermission: false
   # If set to true, spawners will have chance to be dropped when destroying with tnt
   TnTExplosionDrop:
     use: false
@@ -982,7 +986,7 @@ Animations:
   DoubleClickDelay: 200
   # Range in blocks from player to look up for valid chair block
   ChairRange: 4
-# All possible damage causes: kill, world_border, contact, entity_attack, entity_sweep_attack, projectile, suffocation, fall, fire, fire_tick, melting, lava, drowning, block_explosion, entity_explosion, void, lightning, suicide, starvation, poison, magic, wither, falling_block, thorns, dragon_breath, custom, fly_into_wall, hot_floor, cramming, dryout, freeze, sonic_boom, 
+# All possible damage causes: kill, world_border, contact, entity_attack, entity_sweep_attack, projectile, suffocation, fall, fire, fire_tick, melting, lava, drowning, block_explosion, entity_explosion, void, lightning, suicide, starvation, poison, magic, wither, falling_block, thorns, dragon_breath, custom, fly_into_wall, hot_floor, campfire, cramming, dryout, freeze, sonic_boom, 
 # Syntax should be [permissionNode]:[damageCause]:[multiplier]
 # Example: nolavadamage:lava:0 will prevent lava damage with cmi.damagecontrol.nolavadamage permission node
 # Negative values will heal player instead of damaging him
@@ -1205,7 +1209,12 @@ Spawn:
   # Defines players first spawn point when he logs into server for the first time
   FirstSpawn:
     Use: true
-    Location: world;-100.66;222.0;55.02;-89.24;-1.05
+    World: None
+    X: 0.0
+    Y: 0.0
+    Z: 0.0
+    Pitch: 0.0
+    Yaw: 0.0
 Newbie:
   # Kit name to give for new players joining server
   Kit: Newbie
@@ -1295,7 +1304,7 @@ WorldLimits:
   # If player will have cmi.worldlimit.god.bypass permission node, god mode wont be changed
   GodMode:
   - testWorld:False
-  # Prevents particular entity spawn reasons in defined worlds. All possible reasons: NATURAL, JOCKEY, CHUNK_GEN, SPAWNER, EGG, SPAWNER_EGG, LIGHTNING, BUILD_SNOWMAN, BUILD_IRONGOLEM, BUILD_WITHER, VILLAGE_DEFENSE, VILLAGE_INVASION, BREEDING, SLIME_SPLIT, REINFORCEMENTS, NETHER_PORTAL, DISPENSE_EGG, INFECTION, CURED, OCELOT_BABY, SILVERFISH_BLOCK, MOUNT, TRAP, ENDER_PEARL, SHOULDER_ENTITY, DROWNED, SHEARED, EXPLOSION, RAID, PATROL, BEEHIVE, PIGLIN_ZOMBIFIED, SPELL, FROZEN, METAMORPHOSIS, DUPLICATION, COMMAND, CUSTOM, DEFAULT
+  # Prevents particular entity spawn reasons in defined worlds. All possible reasons: NATURAL, JOCKEY, CHUNK_GEN, SPAWNER, TRIAL_SPAWNER, EGG, SPAWNER_EGG, LIGHTNING, BUILD_SNOWMAN, BUILD_IRONGOLEM, BUILD_WITHER, VILLAGE_DEFENSE, VILLAGE_INVASION, BREEDING, SLIME_SPLIT, REINFORCEMENTS, NETHER_PORTAL, DISPENSE_EGG, INFECTION, CURED, OCELOT_BABY, SILVERFISH_BLOCK, MOUNT, TRAP, ENDER_PEARL, SHOULDER_ENTITY, DROWNED, SHEARED, EXPLOSION, RAID, PATROL, BEEHIVE, PIGLIN_ZOMBIFIED, SPELL, FROZEN, METAMORPHOSIS, DUPLICATION, COMMAND, ENCHANTMENT, OMINOUS_ITEM_SPAWNER, POTION_EFFECT, CUSTOM, DEFAULT
   SpawnReasons:
     world:
     - None
@@ -1676,45 +1685,48 @@ Enchanting:
     # This only applies for enchant command not for natural enchanting
     Enabled: true
     MaxLevel:
-      protection_fire: 4
-      damage_all: 5
-      arrow_fire: 1
-      soul_speed: 3
-      water_worker: 1
-      arrow_knockback: 2
-      loyalty: 3
-      depth_strider: 3
-      vanishing_curse: 1
-      durability: 3
-      knockback: 2
-      luck: 3
-      binding_curse: 1
-      loot_bonus_blocks: 3
-      protection_environmental: 4
-      dig_speed: 5
-      mending: 1
-      frost_walker: 2
-      lure: 3
-      loot_bonus_mobs: 3
-      piercing: 4
-      protection_explosions: 4
-      damage_undead: 5
-      multishot: 1
+      density: 5
       swift_sneak: 3
-      fire_aspect: 2
-      channeling: 1
-      sweeping_edge: 3
-      thorns: 3
-      damage_arthropods: 5
-      oxygen: 3
-      riptide: 3
-      silk_touch: 1
-      quick_charge: 3
-      protection_projectile: 4
-      impaling: 5
+      breach: 4
       protection_fall: 4
-      arrow_damage: 5
       arrow_infinite: 1
+      arrow_fire: 1
+      impaling: 5
+      protection_environmental: 4
+      knockback: 2
+      depth_strider: 3
+      luck: 3
+      silk_touch: 1
+      loyalty: 3
+      vanishing_curse: 1
+      protection_fire: 4
+      channeling: 1
+      binding_curse: 1
+      quick_charge: 3
+      damage_arthropods: 5
+      frost_walker: 2
+      multishot: 1
+      protection_projectile: 4
+      water_worker: 1
+      soul_speed: 3
+      wind_burst: 3
+      loot_bonus_mobs: 3
+      damage_undead: 5
+      piercing: 4
+      lure: 3
+      riptide: 3
+      arrow_damage: 5
+      protection_explosions: 4
+      mending: 1
+      fire_aspect: 2
+      oxygen: 3
+      thorns: 3
+      sweeping_edge: 3
+      arrow_knockback: 2
+      damage_all: 5
+      dig_speed: 5
+      loot_bonus_blocks: 3
+      durability: 3
   # When set to true, players will be required to have cmi.enchantments.[enchantname] permission node
   RequireSpecificPermission: false
   # When enabled we will only allow to enchant items with valid enchantments
