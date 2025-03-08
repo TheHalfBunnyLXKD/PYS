@@ -1,167 +1,112 @@
-[01:44:02] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[01:44:02] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[01:44:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:44:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[01:44:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[19:16:43] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[19:16:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[19:16:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:16:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[19:16:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - CMI (9.7.9.6), CMILib (1.5.3.4), SkinsRestorer (15.5.3)
-[01:44:07] [ServerMain/WARN]: resource-pack-id missing, using default of 4d90cb81-14e7-3e5d-8630-1eedd19e6f27
-[01:44:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:44:09] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:gameplay/piglin_bartering}.pools[0].entries[18].condition[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
-[01:44:10] [ServerMain/INFO]: Loaded 1248 recipes
-[01:44:11] [ServerMain/INFO]: Loaded 1590 advancements
-[01:44:11] [Server thread/INFO]: Starting minecraft server version 1.21
-[01:44:11] [Server thread/INFO]: Loading properties
-[01:44:11] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[01:44:12] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:44:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:44:12] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:44:12] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[01:44:13] [Server thread/INFO]: Default game type: SURVIVAL
-[01:44:13] [Server thread/INFO]: Generating keypair
-[01:44:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:44:13] [Server thread/INFO]: Using epoll channel type
-[01:44:13] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:44:13] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[01:44:13] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.5.3.4
-[01:44:13] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.3
-[01:44:13] [Server thread/INFO]: [CMI] Loading server plugin CMI v9.7.9.6
-[01:44:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:44:13] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.3
-[01:44:15] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[01:44:15] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[01:44:16] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[01:44:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:44:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:44:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:44:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:44:17] [Server thread/INFO]: Preparing level "world"
-[01:44:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[01:44:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[01:44:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[01:44:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[01:44:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[01:44:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[01:44:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[01:44:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.3
-[01:44:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 86e796c
-[01:44:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[01:44:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[01:44:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[01:44:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[01:44:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:44:18] [Server thread/INFO]: Time elapsed: 777 ms
-[01:44:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[01:44:18] [Server thread/INFO]: Time elapsed: 356 ms
-[01:44:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[01:44:18] [Server thread/INFO]: Time elapsed: 86 ms
-[01:44:18] [Server thread/INFO]: Preparing start region for dimension roguecraft:infinite_garden
-[01:44:19] [Server thread/INFO]: Time elapsed: 285 ms
-[01:44:19] [Server thread/INFO]: [CMILib] Enabling CMILib v1.5.3.4
-[01:44:20] [Server thread/INFO]: Server version: v1_21_R1 - 1.21.0 - paper  1.21-130-b1b5d4c (MC: 1.21)
-[01:44:20] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:44:20] [Server thread/INFO]: CMI hooked.
-[01:44:21] [Server thread/INFO]: Updated (EN) language file. Took 74ms
-[01:44:21] [Server thread/INFO]: [CMI] Enabling CMI v9.7.9.6
-[01:44:21] [Server thread/INFO]: _______________________________________________________
-[01:44:21] [Server thread/INFO]:  
-[01:44:21] [Server thread/INFO]:  ██████╗███╗   ███╗██╗
-[01:44:21] [Server thread/INFO]: ██╔════╝████╗ ████║██║
-[01:44:21] [Server thread/INFO]: ██║     ██╔████╔██║██║
-[01:44:21] [Server thread/INFO]: ██║     ██║╚██╔╝██║██║
-[01:44:21] [Server thread/INFO]: ╚██████╗██║ ╚═╝ ██║██║
-[01:44:21] [Server thread/INFO]:  ╚═════╝╚═╝     ╚═╝╚═╝
-[01:44:21] [Server thread/INFO]: _______________________________________________________
-[01:44:21] [Server thread/INFO]: Integrating PaperSpigot async methods
-[01:44:21] [Server thread/INFO]: Loaded (67) 67 Enabled and 0 Disabled modules into memory. Took 495ms
-[01:44:21] [Server thread/INFO]: Initialized Cipher256 AES
-[01:44:23] [Server thread/INFO]: Loaded (61) regular alias into memory. Took 97ms
-[01:44:23] [Server thread/INFO]: Loaded (1) custom text's into memory. Took 13ms
-[01:44:23] [Server thread/INFO]: 3.46.0 data base type detected
-[01:44:24] [Server thread/INFO]: Loaded (-) SqLite into memory. Took 248ms
-[01:44:24] [Server thread/INFO]: Vault was not found, you will have limited economy support
-[01:44:24] [Server thread/INFO]: Loaded (5) warning categories into memory. Took 0ms
-[01:44:24] [Server thread/INFO]: Loaded (3) warning commands into memory. Took 0ms
-[01:44:24] [Server thread/INFO]: Loaded (0) cooldowns into memory. Took 0ms
-[01:44:24] [Server thread/INFO]: Loaded (147) custom mob heads into memory. Took 19ms
-[01:44:25] [Server thread/INFO]: Loaded (5) kits into memory. Took 175ms
-[01:44:25] [Server thread/INFO]: Loaded (7) ranks into memory. Took 42ms
-[01:44:25] [Server thread/INFO]: Loaded (8) playtime rewards into memory. Took 3ms
-[01:44:25] [Server thread/INFO]: Executed Player DB querry in 4ms
-[01:44:25] [Server thread/INFO]: Loaded (3) player data into memory. Took 13ms
-[01:44:25] [Server thread/INFO]: Loaded (0) playtime records into memory. Took 1ms
-[01:44:25] [Server thread/INFO]: Loaded (0) playtime reward records into memory. Took 0ms
-[01:44:25] [Server thread/INFO]: Loaded (0) custom alias into memory. Took 1ms
-[01:44:26] [Server thread/INFO]: Loaded (-) Registered events into memory. Took 245ms
-[01:44:26] [Server thread/INFO]: Loaded (0) event action commands into memory. Took 7ms
-[01:44:26] [Server thread/INFO]: Loaded (EN) language file into memory. Took 121ms
-[01:44:26] [Server thread/INFO]: Loaded (245) worth values into memory. Took 53ms
-[01:44:26] [Server thread/INFO]: Loaded (4) schedules into memory. Took 10ms
-[01:44:26] [Server thread/INFO]: Loaded (4) skin cache entries into memory. Took 2ms
-[01:44:26] [Server thread/INFO]: Loaded (0) ArmorStand templates into memory. Took 1ms
-[01:44:26] [Server thread/INFO]: Version 9.7.9.6 has been enabled
-[01:44:26] [Server thread/INFO]: _______________________________________________________
-[01:44:26] [Server thread/INFO]: [spark] Starting background profiler...
-[01:44:27] [Server thread/INFO]: Done preparing level "world" (10.005s)
-[01:44:27] [Server thread/INFO]: Running delayed init tasks
-[01:44:27] [Server thread/INFO]: Done (25.223s)! For help, type "help"
-[01:44:27] [Server thread/INFO]: Timings Reset
-[01:44:27] [Craft Scheduler Thread - 3 - CMILib/INFO]: New version of CMILib was detected. Please update it (1.5.3.4 -> 1.5.3.5)
-[01:44:32] [User Authenticator #0/INFO]: UUID of player TheHalfBunnyYT is 1316fb8a-77be-385d-82b3-15350c8ee35c
-[01:44:37] [Server thread/INFO]:  TheHalfBunnyYT joined the game
-[01:44:37] [Server thread/INFO]: TheHalfBunnyYT[/127.122.141.60:55511] logged in with entity id 746 at ([world_roguecraft_infinite_garden]39.40750362591381, 68.0, -0.3524106798516269)
-[01:46:04] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT skillpoints 72
-[01:46:04] [Server thread/INFO]: [TheHalfBunnyYT: Set [skillpoints] for TheHalfBunnyYT to 72]
-[01:47:16] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT sharpness 50
-[01:47:16] [Server thread/INFO]: [TheHalfBunnyYT: Set [sharpness] for TheHalfBunnyYT to 50]
-[01:47:33] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT sharpness 4
-[01:47:33] [Server thread/INFO]: [TheHalfBunnyYT: Set [sharpness] for TheHalfBunnyYT to 4]
-[01:47:41] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT looting 10
-[01:47:41] [Server thread/INFO]: [TheHalfBunnyYT: Set [looting] for TheHalfBunnyYT to 10]
-[01:47:54] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT attack_damage 4
-[01:47:54] [Server thread/INFO]: [TheHalfBunnyYT: Set [attack_damage] for TheHalfBunnyYT to 4]
-[01:48:14] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT attack_cooldown 0
-[01:48:14] [Server thread/INFO]: [TheHalfBunnyYT: Set [attack_cooldown] for TheHalfBunnyYT to 0]
-[01:49:00] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players get TheHalfBunnyYT return_to_hub
-[01:49:04] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT return_to_hub 0
-[01:49:04] [Server thread/INFO]: [TheHalfBunnyYT: Set [return_to_hub] for TheHalfBunnyYT to 0]
-[01:49:08] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT return_to_hub 0
-[01:49:08] [Server thread/INFO]: [TheHalfBunnyYT: Set [return_to_hub] for TheHalfBunnyYT to 0]
-[01:49:31] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT run_returned 1
-[01:49:31] [Server thread/INFO]: [TheHalfBunnyYT: Set [run_returned] for TheHalfBunnyYT to 1]
-[01:49:34] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT run_returned 0
-[01:49:34] [Server thread/INFO]: [TheHalfBunnyYT: Set [run_returned] for TheHalfBunnyYT to 0]
-[01:51:13] [Server thread/INFO]: TheHalfBunnyYT issued server command: /trigger restart_run
-[01:51:13] [Server thread/INFO]: [TheHalfBunnyYT: Triggered [restart_run]]
-[01:51:17] [Server thread/INFO]: TheHalfBunnyYT issued server command: /trigger restart_run
-[01:51:22] [Server thread/INFO]: TheHalfBunnyYT issued server command: /trigger restart_run
-[01:51:28] [Server thread/INFO]: TheHalfBunnyYT issued server command: /trigger new_world_timer
-[01:51:28] [Server thread/INFO]: [TheHalfBunnyYT: Triggered [new_world_timer]]
-[01:51:34] [Server thread/INFO]: TheHalfBunnyYT issued server command: /trigger new_world_timer
-[01:51:34] [Server thread/INFO]: [TheHalfBunnyYT: Triggered [new_world_timer]]
-[01:51:37] [Server thread/INFO]: TheHalfBunnyYT issued server command: /trigger
-[01:51:43] [Server thread/INFO]: TheHalfBunnyYT issued server command: /trigger toggle_ability_feedback
-[01:51:43] [Server thread/INFO]: [TheHalfBunnyYT: Triggered [toggle_ability_feedback]]
-[01:51:44] [Server thread/INFO]: TheHalfBunnyYT issued server command: /trigger toggle_ability_feedback
-[01:51:44] [Server thread/INFO]: [TheHalfBunnyYT: Triggered [toggle_ability_feedback]]
-[01:52:12] [Server thread/INFO]: TheHalfBunnyYT issued server command: /trigger restart_run
-[01:52:21] [Server thread/INFO]: Unknown or incomplete command, see below for error
-/trigger restart_run<--[HERE]
-[01:52:25] [Server thread/INFO]: A player is required to run this command here
-[01:52:28] [Server thread/INFO]: TheHalfBunnyYT issued server command: /trigger restart_run
-[01:52:44] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT run_returned 1
-[01:52:44] [Server thread/INFO]: [TheHalfBunnyYT: Set [run_returned] for TheHalfBunnyYT to 1]
-[01:52:46] [Server thread/INFO]: TheHalfBunnyYT issued server command: /trigger restart_run
-[01:52:50] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT run_returned
-[01:52:54] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT run_returned 0
-[01:52:54] [Server thread/INFO]: [TheHalfBunnyYT: Set [run_returned] for TheHalfBunnyYT to 0]
-[01:52:58] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT run_returned
-[01:52:59] [Server thread/INFO]: TheHalfBunnyYT issued server command: /trigger restart_run
-[01:53:12] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT return_to_hub 1
-[01:53:12] [Server thread/INFO]: [TheHalfBunnyYT: Set [return_to_hub] for TheHalfBunnyYT to 1]
-[01:53:13] [Server thread/INFO]: TheHalfBunnyYT issued server command: /trigger restart_run
-[01:53:17] [Server thread/INFO]: TheHalfBunnyYT issued server command: /scoreboard players set TheHalfBunnyYT return_to_hub 0
-[01:53:17] [Server thread/INFO]: [TheHalfBunnyYT: Set [return_to_hub] for TheHalfBunnyYT to 0]
-[01:53:18] [Server thread/INFO]: TheHalfBunnyYT issued server command: /trigger restart_run
-[01:53:32] [Server thread/INFO]: TheHalfBunnyYT issued server command: /tpo TheHalfBunnyYT
-[01:53:37] [Server thread/INFO]: TheHalfBunnyYT issued server command: /tpo Gabetis21
-[01:53:53] [Server thread/INFO]: TheHalfBunnyYT issued server command: /trigger return_to_hub
+[19:16:49] [ServerMain/WARN]: resource-pack-id missing, using default of 4d90cb81-14e7-3e5d-8630-1eedd19e6f27
+[19:16:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:16:52] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:gameplay/piglin_bartering}.pools[0].entries[18].condition[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[19:16:54] [ServerMain/INFO]: Loaded 1248 recipes
+[19:16:54] [ServerMain/INFO]: Loaded 1590 advancements
+[19:16:54] [Server thread/INFO]: Starting minecraft server version 1.21
+[19:16:54] [Server thread/INFO]: Loading properties
+[19:16:54] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[19:16:55] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:16:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:16:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:16:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[19:16:56] [Server thread/INFO]: Default game type: SURVIVAL
+[19:16:56] [Server thread/INFO]: Generating keypair
+[19:16:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:16:57] [Server thread/INFO]: Using epoll channel type
+[19:16:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:16:57] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[19:16:57] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.5.3.4
+[19:16:57] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.3
+[19:16:57] [Server thread/INFO]: [CMI] Loading server plugin CMI v9.7.9.6
+[19:16:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:16:57] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.3
+[19:16:59] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[19:17:00] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[19:17:01] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[19:17:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:17:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:17:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:17:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:17:01] [Server thread/INFO]: Preparing level "world"
+[19:17:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:17:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:17:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[19:17:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[19:17:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[19:17:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:17:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:17:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.3
+[19:17:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 86e796c
+[19:17:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     A new version (15.6.0) is available! Downloading update...
+[19:17:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:17:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[19:17:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[19:17:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[19:17:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 544ms
+[19:17:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
+[19:17:02] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
+[19:17:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:17:03] [Server thread/INFO]: Time elapsed: 1121 ms
+[19:17:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:17:03] [Server thread/INFO]: Time elapsed: 342 ms
+[19:17:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:17:04] [Server thread/INFO]: Time elapsed: 111 ms
+[19:17:04] [Server thread/INFO]: Preparing start region for dimension roguecraft:infinite_garden
+[19:17:04] [Server thread/INFO]: Time elapsed: 370 ms
+[19:17:04] [Server thread/INFO]: [CMILib] Enabling CMILib v1.5.3.4
+[19:17:05] [Server thread/INFO]: Server version: v1_21_R1 - 1.21.0 - paper  1.21-130-b1b5d4c (MC: 1.21)
+[19:17:05] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:17:06] [Server thread/INFO]: CMI hooked.
+[19:17:06] [Server thread/INFO]: Updated (EN) language file. Took 57ms
+[19:17:06] [Server thread/INFO]: [CMI] Enabling CMI v9.7.9.6
+[19:17:06] [Server thread/INFO]: _______________________________________________________
+[19:17:06] [Server thread/INFO]:  
+[19:17:06] [Server thread/INFO]:  ██████╗███╗   ███╗██╗
+[19:17:06] [Server thread/INFO]: ██╔════╝████╗ ████║██║
+[19:17:06] [Server thread/INFO]: ██║     ██╔████╔██║██║
+[19:17:06] [Server thread/INFO]: ██║     ██║╚██╔╝██║██║
+[19:17:06] [Server thread/INFO]: ╚██████╗██║ ╚═╝ ██║██║
+[19:17:06] [Server thread/INFO]:  ╚═════╝╚═╝     ╚═╝╚═╝
+[19:17:06] [Server thread/INFO]: _______________________________________________________
+[19:17:06] [Server thread/INFO]: Integrating PaperSpigot async methods
+[19:17:06] [Server thread/INFO]: Loaded (67) 67 Enabled and 0 Disabled modules into memory. Took 421ms
+[19:17:06] [Server thread/INFO]: Initialized Cipher256 AES
+[19:17:08] [Server thread/INFO]: Loaded (61) regular alias into memory. Took 74ms
+[19:17:08] [Server thread/INFO]: Loaded (1) custom text's into memory. Took 11ms
+[19:17:08] [Server thread/INFO]: 3.46.0 data base type detected
+[19:17:08] [Server thread/INFO]: Loaded (-) SqLite into memory. Took 191ms
+[19:17:08] [Server thread/INFO]: Vault was not found, you will have limited economy support
+[19:17:09] [Server thread/INFO]: Loaded (5) warning categories into memory. Took 0ms
+[19:17:09] [Server thread/INFO]: Loaded (3) warning commands into memory. Took 1ms
+[19:17:09] [Server thread/INFO]: Loaded (0) cooldowns into memory. Took 0ms
+[19:17:09] [Server thread/INFO]: Loaded (147) custom mob heads into memory. Took 23ms
+[19:17:10] [Server thread/INFO]: Loaded (5) kits into memory. Took 143ms
+[19:17:10] [Server thread/INFO]: Loaded (7) ranks into memory. Took 25ms
+[19:17:10] [Server thread/INFO]: Loaded (8) playtime rewards into memory. Took 3ms
+[19:17:10] [Server thread/INFO]: Executed Player DB querry in 4ms
+[19:17:10] [Server thread/INFO]: Loaded (3) player data into memory. Took 13ms
+[19:17:10] [Server thread/INFO]: Loaded (0) playtime records into memory. Took 1ms
+[19:17:10] [Server thread/INFO]: Loaded (0) playtime reward records into memory. Took 0ms
+[19:17:10] [Server thread/INFO]: Loaded (0) custom alias into memory. Took 1ms
+[19:17:10] [Server thread/INFO]: Loaded (-) Registered events into memory. Took 234ms
+[19:17:10] [Server thread/INFO]: Loaded (0) event action commands into memory. Took 6ms
+[19:17:10] [Server thread/INFO]: Loaded (EN) language file into memory. Took 95ms
+[19:17:10] [Server thread/INFO]: Loaded (245) worth values into memory. Took 51ms
+[19:17:10] [Server thread/INFO]: Loaded (4) schedules into memory. Took 10ms
+[19:17:10] [Server thread/INFO]: Loaded (4) skin cache entries into memory. Took 1ms
+[19:17:10] [Server thread/INFO]: Loaded (0) ArmorStand templates into memory. Took 0ms
+[19:17:11] [Server thread/INFO]: Version 9.7.9.6 has been enabled
+[19:17:11] [Server thread/INFO]: _______________________________________________________
+[19:17:11] [Server thread/INFO]: [spark] Starting background profiler...
+[19:17:11] [Server thread/INFO]: Done preparing level "world" (9.953s)
+[19:17:11] [Server thread/INFO]: Running delayed init tasks
+[19:17:11] [Server thread/INFO]: Done (29.429s)! For help, type "help"
+[19:17:11] [Server thread/INFO]: Timings Reset
+[19:17:11] [Craft Scheduler Thread - 3 - CMILib/INFO]: New version of CMILib was detected. Please update it (1.5.3.4 -> 1.5.3.5)

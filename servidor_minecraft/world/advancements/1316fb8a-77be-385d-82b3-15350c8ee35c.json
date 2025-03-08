@@ -139,28 +139,30 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:badlands": "2025-03-06 17:55:09 +0000",
-      "minecraft:beach": "2025-03-06 17:11:21 +0000",
-      "minecraft:dark_forest": "2025-03-06 18:33:36 +0000",
+      "minecraft:cold_ocean": "2025-03-07 01:53:37 +0000",
       "minecraft:forest": "2025-03-06 17:54:45 +0000",
-      "minecraft:sparse_jungle": "2025-03-06 17:58:38 +0000",
-      "minecraft:river": "2025-03-06 17:16:00 +0000",
-      "minecraft:stony_shore": "2025-03-06 19:47:43 +0000",
-      "minecraft:snowy_plains": "2025-03-06 17:39:20 +0000",
+      "minecraft:taiga": "2025-03-07 01:54:21 +0000",
       "minecraft:lush_caves": "2025-03-06 19:39:14 +0000",
-      "minecraft:dripstone_caves": "2025-03-06 17:41:01 +0000",
-      "minecraft:snowy_taiga": "2025-03-06 17:37:47 +0000",
-      "minecraft:old_growth_birch_forest": "2025-03-06 18:32:03 +0000",
       "minecraft:desert": "2025-03-06 17:56:52 +0000",
       "minecraft:frozen_river": "2025-03-06 17:47:13 +0000",
       "minecraft:jungle": "2025-03-06 19:24:16 +0000",
       "minecraft:cherry_grove": "2025-03-06 18:18:54 +0000",
-      "minecraft:grove": "2025-03-06 18:23:43 +0000",
-      "minecraft:meadow": "2025-03-06 18:23:30 +0000",
       "minecraft:birch_forest": "2025-03-06 17:11:56 +0000",
-      "minecraft:savanna": "2025-03-06 17:37:14 +0000",
       "minecraft:wooded_badlands": "2025-03-06 17:55:40 +0000",
       "minecraft:bamboo_jungle": "2025-03-06 17:58:33 +0000",
+      "minecraft:badlands": "2025-03-06 17:55:09 +0000",
+      "minecraft:beach": "2025-03-06 17:11:21 +0000",
+      "minecraft:dark_forest": "2025-03-06 18:33:36 +0000",
+      "minecraft:sparse_jungle": "2025-03-06 17:58:38 +0000",
+      "minecraft:river": "2025-03-06 17:16:00 +0000",
+      "minecraft:stony_shore": "2025-03-06 19:47:43 +0000",
+      "minecraft:snowy_plains": "2025-03-06 17:39:20 +0000",
+      "minecraft:dripstone_caves": "2025-03-06 17:41:01 +0000",
+      "minecraft:snowy_taiga": "2025-03-06 17:37:47 +0000",
+      "minecraft:old_growth_birch_forest": "2025-03-06 18:32:03 +0000",
+      "minecraft:grove": "2025-03-06 18:23:43 +0000",
+      "minecraft:meadow": "2025-03-06 18:23:30 +0000",
+      "minecraft:savanna": "2025-03-06 17:37:14 +0000",
       "minecraft:plains": "2025-03-06 17:15:25 +0000",
       "minecraft:jagged_peaks": "2025-03-06 18:24:39 +0000"
     },
@@ -2292,6 +2294,12 @@
   "minecraft:recipes/building_blocks/dripstone_block": {
     "criteria": {
       "has_pointed_dripstone": "2025-03-06 20:01:28 +0000"
+    },
+    "done": true
+  },
+  "roguecraft:infinite_garden/infinite_garden_void": {
+    "criteria": {
+      "granted": "2025-03-07 01:58:43 +0000"
     },
     "done": true
   },
